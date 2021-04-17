@@ -5,18 +5,15 @@ using UnityEngine;
 public class ToggleController : MonoBehaviour
 {
     public GameObject obj;
-    public bool isactive;
     public void changeStatus()
     {
-        if(isactive == true)
+        if (obj.activeInHierarchy)
         {
-            isactive = false;
-            obj.SetActive(isactive);
+            obj.SetActive(false);
         }
         else
         {
-            isactive = true;
-            obj.SetActive(isactive);
+            obj.SetActive(true);
         }
     }
 }

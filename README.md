@@ -1,100 +1,61 @@
-# UltraSonicProbe
- 
-## 1. Your team name.
+## 1. Your team name
 
-UltraProbing
+Ultrasonic Probe Central Line Training
 
-## 2. Your names and UNIs.
+## 2. Your names and UNIs
 
-Bob Guan (bg2676)
+Manxueying Li
+ml4529@columbia.edu
 
-Chengchen Li (cl4021)
+Lior Tal
+ljt2136@columbia.edu
 
-## 3. Date of submission.
+Chengchen Li
+cl4021@columbia.edu
 
-December 24 2020.
+Ziyao Zhang
+zz2790@columbia.edu
 
-## 4. Development platform(s).
+## 3. Date of submission
 
-Unity 20194.16.f1.
+April 20 2021
 
-## 5. Mobile platforms, OS versions, and device names (and server platform, if any).
+## 4. Development platform(s)
 
-Oculus Quest 1 (local application).
+Unity 2019.4.16.f1.
 
-## 6. Project title.
+## 5. Mobile platforms, OS versions, and device names (and server platform, if any)
 
-Ultrasonic Probing Simulation.
+Oculus Quest
 
-## 7. Project directory overview.
+## 6.Project title
 
-I've listed the important directories as below. 
-Basically, the *Assets* directory contains the textures and models we use, and the rest are less important.
+Ultrasonic Probe Central Line Training
+
+## 7.Project directory overview
 
 
-├─UltraSonicProbe
 
-    ├─AppBuilds
-    
-    ├─Assets
-    
-    │  ├─HuMan
-    
-    │  │  ├─Assets
-    
-    │  │  │  ├─Materials
-    
-    │  │  │  ├─Models
-    
-    │  │  │  ├─Presets
-    
-    │  │  │  └─Textures
-    
-    │  │  ├─Demo
-    
-    │  │  └─Documentation
-    
-    │  └─Models
-    
-    │     └─Organs
-    
-    ├─Logs
-    
-    ├─Packages
-    
-    └─ProjectSettings
-    
-
-## 8. Special Instructions, if any, for deploying your app.
+## 8.Special Instructions, if any, for deploying your app
 
 Followed the Unity tutorial here: https://developer.oculus.com/documentation/unity/book-unity-gsg/.
 
-## 9. Special instructions, if any, for preparing your trackable targets (if any).
+## 9.Special instructions, if any, for preparing your targets
 
 None.
 
-## 10. Video URL.
+## 10.Video URL
 
-https://youtu.be/5LmB6eH5kEo
 
-## 11. Missing features.
 
-1. Need more organ models.
+## 11.Missing features
 
-2. Instructions to lead the training process.
 
-3. Better UI, textures and backgrounds.
 
-## 12. Bugs in your code and in any system you used
+## 12.Bugs in your code and in any system you used
 
-1. On Windows 10, there is chance that the depth control does not work with only one controller enabled (will work once both controllers are enabled).
 
-## 13. Asset sources.
 
-Heart model: Professor Steven Feiner (Columbia University).
+## 13.Asset sources
 
-Abdominal aorta model: Professor Steven Feiner (Columbia University).
 
-Ultrasonic probe model: http://perk-software.cs.queensu.ca/plus/doc/nightly/modelcatalog/.
-
-Human body model: https://assetstore.unity.com/packages/3d/characters/humanoids/humans/human-3d-project-animated-handpainted-male-69507.
