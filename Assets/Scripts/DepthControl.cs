@@ -7,7 +7,7 @@ public class DepthControl : MonoBehaviour
 {
 
     public GameObject depthFilter;
-    public Text depthLabel;
+    //public Text depthLabel;
     private double maxDepth = 5.0;
     private int scaleSpeed = 200;
     private double depthScale = 1.0;
@@ -27,7 +27,7 @@ public class DepthControl : MonoBehaviour
 
         var afterChange = depthFilter.transform.localScale[2] - changeVal / scaleSpeed;
 
-        depthLabel.text = calculateDepth().ToString("0.##") + depthUnitText;
+        //depthLabel.text = calculateDepth().ToString("0.##") + depthUnitText;
         if (changeVal != 0.0 && afterChange >= 0 && afterChange <= 2)
         {
             depthFilter.transform.localScale -= new Vector3(0, 0, changeVal / scaleSpeed);

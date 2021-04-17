@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ClippingPlaneControl : MonoBehaviour
 {
-
+    public float farOffset = 0.005f;
     public Camera camera;
 
     // Start is called before the first frame update
@@ -12,7 +12,7 @@ public class ClippingPlaneControl : MonoBehaviour
     {
         //camera = GameObject.Find("UltraSonicProbe").GetComponent<Camera>();
         camera.nearClipPlane = 0.30f;
-        camera.farClipPlane = 0.301f;
+        camera.farClipPlane = camera.nearClipPlane + farOffset;
     }
 
     // Update is called once per frame
