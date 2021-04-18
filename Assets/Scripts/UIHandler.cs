@@ -77,20 +77,24 @@ public class UIHandler : MonoBehaviour
     {
         // according to Dr. Kessler 
         procedureDescriptions = new string[] {
-            "Ensure machine is plugged in.",
-            "Turn on machine and select proper setting (vascular).",
-            "Adjust 'gain' and 'depth' knobs to bring relevant anatomy into optimal field of view.",
-            "Visualize internal jugular (and other neck anatomy) on both right and left side to help select procedural site.",
-            "(Sterilize actions. e.g. hand hygiene.)",
-            "(Additional actions. e.g. preparing the kit, draping the patient, ensuring they are on a monitor.)",
-            "Apply sterile sheath to ultrasound probe.",
-            "Visualize region of interest in cross-section and long-axis.",
-            "(Direct guidance method - TBD)",
-            "(Intermediary steps related solely to procedure. e.g. vsiualize blood flash, enlarge area with scalpel nick.)",
-            "Insert catheter over wire and confirm wire is removed.",
-            "Confirm flushes with ultrasound",
-            "(Secondary confirmations. e.g. manometry.)"
+            "Welcome to VR Ultrasonic probe training. Press > to move on to next step, press < to go to the previous step.",
+            "Hold the ultrasonic probe with the right hand and place it on the human body.",
+            "Slowly move the probe and watch the ultrasonic image carefully.",
+            "Visualize internal jugular on both right and left side to help select procedural site.",
+            "Hold syringe on the left hand and do the insertion.",
+            "You are now finishied the entire process. You can now hide the instruction panel in the main menu.",
+
         };
         nStep = procedureDescriptions.Length;
     }
 }
+
+// "(Sterilize actions. e.g. hand hygiene.)",
+//"(Additional actions. e.g. preparing the kit, draping the patient, ensuring they are on a monitor.)",
+//            "Apply sterile sheath to ultrasound probe.",
+//            "Visualize region of interest in cross-section and long-axis.",
+//            "(Direct guidance method - TBD)",
+//            "(Intermediary steps related solely to procedure. e.g. vsiualize blood flash, enlarge area with scalpel nick.)",
+//            "Insert catheter over wire and confirm wire is removed.",
+//            "Confirm flushes with ultrasound",
+//            "(Secondary confirmations. e.g. manometry.)"
