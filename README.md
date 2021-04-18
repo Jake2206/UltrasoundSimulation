@@ -50,11 +50,11 @@ None.
 
 ## 11.Missing features
 
-
+1. A good asset as the hospital environment.
 
 ## 12.Bugs in your code and in any system you used
 
-
+1. The syringe and probe are difficult to grab sometimes. May need to make the collider larger.
 
 ## 13.Asset sources
 
