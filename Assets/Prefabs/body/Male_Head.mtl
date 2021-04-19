@@ -1,0 +1,2279 @@
+# Max2Mtl Version 4.0 Mar 10th, 2001
+#
+newmtl BRAIN_Cervical_nerves
+Ka  0.7 0.7 0.5
+Kd  0.7 0.7 0.5
+Ks  0.4 0.4 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Nerve
+Ka  0.8 0.8 0.4
+Kd  0.8 0.8 0.4
+Ks  0.4 0.4 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Cerebral_hemispheres_L (7) to come 
+#
+newmtl BRAIN_Limbic_system
+Ka  0.3 0.2 0.6
+Kd  0.3 0.2 0.6
+Ks  0.2 0.1 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Gyrus_postcentralis
+Ka  0.1 0.4 0.4
+Kd  0.1 0.4 0.4
+Ks  0.1 0.2 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Gyrus_temporalis
+Ka  0.7 0.4 0.1
+Kd  0.7 0.4 0.1
+Ks  0.4 0.2 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Occipital_cortex
+Ka  0.2 0.4 0.5
+Kd  0.2 0.4 0.5
+Ks  0.1 0.2 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Precuneus
+Ka  0.1 0.4 0.2
+Kd  0.1 0.4 0.2
+Ks  0.1 0.2 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Gyrus_frontalis
+Ka  0.6 0.1 0.1
+Kd  0.6 0.1 0.1
+Ks  0.3 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Gyrus__precentralis
+Ka  0.6 0.3 0.2
+Kd  0.6 0.3 0.2
+Ks  0.3 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Cerebral_hemispheres_L done 
+#
+# Multi/Sub Cerebellum (4) to come 
+#
+newmtl BRAIN_Cerebellum
+Ka  0.3 0.1 0.1
+Kd  0.3 0.1 0.1
+Ks  0.1 0.1 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Inferior_cerebellar_pedun
+Ka  0.5 0.4 0.2
+Kd  0.5 0.4 0.2
+Ks  0.3 0.2 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Superior_cerebellar_pedun
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.3 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Pons
+Ka  0.2 0.4 0.4
+Kd  0.2 0.4 0.4
+Ks  0.1 0.2 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Cerebellum done 
+#
+newmtl BRAIN_Ventricle_of_brain
+Ka  0.2 0.6 0.6
+Kd  0.2 0.6 0.6
+Ks  0.1 0.3 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub EYE_Optic_Nerve (2) to come 
+#
+newmtl BRAIN_EYE_Optic_Nerve
+Ka  0.7 0.7 0.1
+Kd  0.7 0.7 0.1
+Ks  0.4 0.4 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_EYE_Optic_nerve_sheath
+Ka  0.8 0.7 0.6
+Kd  0.8 0.7 0.6
+Ks  0.4 0.4 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub EYE_Optic_Nerve done 
+#
+# Multi/Sub Eye_R (4) to come 
+#
+newmtl BRAIN_EYE_Optic_nerve_sheath
+Ka  0.8 0.7 0.6
+Kd  0.8 0.7 0.6
+Ks  0.4 0.4 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_EYE_Sclera
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.3 0.3 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_EYE_Black
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_EYE_Iris
+Ka  0.1 0.1 0.1
+Kd  0.1 0.1 0.1
+Ks  0.1 0.1 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Eye_R done 
+#
+newmtl BRAIN_EYE_Cornea
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.4 0.4 0.4
+d  0.1
+Ns  0.0
+illum 2
+#
+# Multi/Sub Eye_L (4) to come 
+#
+newmtl BRAIN_EYE_Optic_nerve_sheath
+Ka  0.8 0.7 0.6
+Kd  0.8 0.7 0.6
+Ks  0.4 0.4 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_EYE_Sclera
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.3 0.3 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_EYE_Black
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_EYE_Iris
+Ka  0.1 0.1 0.1
+Kd  0.1 0.1 0.1
+Ks  0.1 0.1 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Eye_L done 
+#
+newmtl BRAIN_Corpus_collosum
+Ka  0.8 0.7 0.5
+Kd  0.8 0.7 0.5
+Ks  0.4 0.3 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Brainstem_Spinal_cord (26) to come 
+#
+newmtl BRAIN_Spinal_cord
+Ka  0.7 0.6 0.3
+Kd  0.7 0.6 0.3
+Ks  0.4 0.3 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Facial_colliculus
+Ka  0.6 0.3 0.2
+Kd  0.6 0.3 0.2
+Ks  0.3 0.2 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Pons
+Ka  0.2 0.4 0.4
+Kd  0.2 0.4 0.4
+Ks  0.1 0.2 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Inferior_cerebellar_pedun
+Ka  0.5 0.4 0.2
+Kd  0.5 0.4 0.2
+Ks  0.3 0.2 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Inferior_colliculus
+Ka  0.5 0.4 0.4
+Kd  0.5 0.4 0.4
+Ks  0.2 0.2 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Medulla
+Ka  0.7 0.5 0.3
+Kd  0.7 0.5 0.3
+Ks  0.3 0.3 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Piramid
+Ka  0.6 0.4 0.2
+Kd  0.6 0.4 0.2
+Ks  0.3 0.2 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Gray
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.3 0.3 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_BRAIN_Ttrigone
+Ka  0.6 0.3 0.2
+Kd  0.6 0.3 0.2
+Ks  0.3 0.2 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Cuneate_tubercle
+Ka  0.6 0.4 0.2
+Kd  0.6 0.4 0.2
+Ks  0.3 0.2 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Lateral_recess
+Ka  0.6 0.5 0.3
+Kd  0.6 0.5 0.3
+Ks  0.3 0.2 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Vestibular_area
+Ka  0.6 0.4 0.2
+Kd  0.6 0.4 0.2
+Ks  0.3 0.2 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Striae
+Ka  0.8 0.8 0.8
+Kd  0.8 0.8 0.8
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Gracile_tubercle
+Ka  0.6 0.5 0.2
+Kd  0.6 0.5 0.2
+Ks  0.3 0.2 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Superior_cerebellar_pedun
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.3 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Cerebral_peduncle
+Ka  0.3 0.6 0.6
+Kd  0.3 0.6 0.6
+Ks  0.2 0.3 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Middle_cerebellar_peduncl
+Ka  0.4 0.6 0.6
+Kd  0.4 0.6 0.6
+Ks  0.2 0.3 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Hypothalamus
+Ka  0.3 0.3 0.5
+Kd  0.3 0.3 0.5
+Ks  0.2 0.1 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Mammillary_body
+Ka  0.3 0.4 0.6
+Kd  0.3 0.4 0.6
+Ks  0.2 0.2 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Medial_geniculate_body
+Ka  0.3 0.3 0.4
+Kd  0.3 0.3 0.4
+Ks  0.2 0.1 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Superior_colliculus
+Ka  0.7 0.3 0.2
+Kd  0.7 0.3 0.2
+Ks  0.3 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Infundibulum
+Ka  0.6 0.7 0.5
+Kd  0.6 0.7 0.5
+Ks  0.3 0.4 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Hypophysis
+Ka  0.7 0.7 0.5
+Kd  0.7 0.7 0.5
+Ks  0.4 0.4 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Pineal_body
+Ka  0.5 0.3 0.4
+Kd  0.5 0.3 0.4
+Ks  0.2 0.2 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Structure
+Ka  0.8 0.7 0.6
+Kd  0.8 0.7 0.6
+Ks  0.4 0.3 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Olive_Piramid
+Ka  0.6 0.5 0.3
+Kd  0.6 0.5 0.3
+Ks  0.3 0.2 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Brainstem_Spinal_cord done 
+#
+# Multi/Sub Thalamus (3) to come 
+#
+newmtl BRAIN_Thalamus
+Ka  0.5 0.1 0.1
+Kd  0.5 0.1 0.1
+Ks  0.3 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Lateral_geniculate_nucleu
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.3 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_EYE_Optic_nerve_sheath
+Ka  0.8 0.7 0.6
+Kd  0.8 0.7 0.6
+Ks  0.4 0.4 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Thalamus done 
+#
+# Multi/Sub Limbic_system (2) to come 
+#
+newmtl BRAIN_Olfactory_bulb
+Ka  0.6 0.5 0.2
+Kd  0.6 0.5 0.2
+Ks  0.3 0.2 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Limbic_system
+Ka  0.3 0.2 0.6
+Kd  0.3 0.2 0.6
+Ks  0.2 0.1 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Limbic_system done 
+#
+newmtl BRAIN_Hippocamp
+Ka  0.6 0.3 0.2
+Kd  0.6 0.3 0.2
+Ks  0.3 0.2 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Basal_Ganglia_L (4) to come 
+#
+newmtl BRAIN_Caudate_nucleus
+Ka  0.7 0.2 0.2
+Kd  0.7 0.2 0.2
+Ks  0.3 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Gray_matter
+Ka  0.5 0.2 0.2
+Kd  0.5 0.2 0.2
+Ks  0.3 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Putamen
+Ka  0.6 0.7 0.2
+Kd  0.6 0.7 0.2
+Ks  0.3 0.3 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Amygdala
+Ka  0.7 0.7 0.4
+Kd  0.7 0.7 0.4
+Ks  0.4 0.3 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Basal_Ganglia_L done 
+#
+# Multi/Sub Basal_Ganglia_R (4) to come 
+#
+newmtl BRAIN_Caudate_nucleus
+Ka  0.7 0.2 0.2
+Kd  0.7 0.2 0.2
+Ks  0.3 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Putamen
+Ka  0.6 0.7 0.2
+Kd  0.6 0.7 0.2
+Ks  0.3 0.3 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Amygdala
+Ka  0.7 0.7 0.4
+Kd  0.7 0.7 0.4
+Ks  0.4 0.3 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Gray_matter
+Ka  0.5 0.2 0.2
+Kd  0.5 0.2 0.2
+Ks  0.3 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Basal_Ganglia_R done 
+#
+# Multi/Sub Cerebral_hemispheres_R (7) to come 
+#
+newmtl BRAIN_Limbic_system
+Ka  0.3 0.2 0.6
+Kd  0.3 0.2 0.6
+Ks  0.2 0.1 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Gyrus_postcentralis
+Ka  0.1 0.4 0.4
+Kd  0.1 0.4 0.4
+Ks  0.1 0.2 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Gyrus_temporalis
+Ka  0.7 0.4 0.1
+Kd  0.7 0.4 0.1
+Ks  0.4 0.2 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Occipital_cortex
+Ka  0.2 0.4 0.5
+Kd  0.2 0.4 0.5
+Ks  0.1 0.2 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Precuneus
+Ka  0.1 0.4 0.2
+Kd  0.1 0.4 0.2
+Ks  0.1 0.2 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Gyrus_frontalis
+Ka  0.6 0.1 0.1
+Kd  0.6 0.1 0.1
+Ks  0.3 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BRAIN_Gyrus__precentralis
+Ka  0.6 0.3 0.2
+Kd  0.6 0.3 0.2
+Ks  0.3 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Cerebral_hemispheres_R done 
+#
+newmtl Frontal_bone
+Ka  0.7 0.7 0.2
+Kd  0.7 0.7 0.2
+Ks  0.2 0.2 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Parietal_bone
+Ka  0.6 0.2 0.3
+Kd  0.6 0.2 0.3
+Ks  0.1 0.0 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Sphenoid_bone
+Ka  0.7 0.2 0.5
+Kd  0.7 0.2 0.5
+Ks  0.1 0.0 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Occipital_bone
+Ka  0.4 0.2 0.1
+Kd  0.4 0.2 0.1
+Ks  0.1 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Temporal_bone
+Ka  0.0 0.4 0.2
+Kd  0.0 0.4 0.2
+Ks  0.0 0.2 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Vomer
+Ka  0.3 0.7 0.8
+Kd  0.3 0.7 0.8
+Ks  0.1 0.1 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Zygomatic_bone
+Ka  0.2 0.6 0.9
+Kd  0.2 0.6 0.9
+Ks  0.0 0.1 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Ethmoid_bone
+Ka  0.1 0.4 0.1
+Kd  0.1 0.4 0.1
+Ks  0.1 0.2 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Nasal_bone
+Ka  0.1 0.7 0.7
+Kd  0.1 0.7 0.7
+Ks  0.0 0.1 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Lacrimal_bone
+Ka  0.5 0.7 0.2
+Kd  0.5 0.7 0.2
+Ks  0.1 0.1 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Maxilla_bone
+Ka  0.7 0.2 0.2
+Kd  0.7 0.2 0.2
+Ks  0.1 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Inferior_concha
+Ka  0.2 0.4 0.7
+Kd  0.2 0.4 0.7
+Ks  0.0 0.1 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_B_III (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_B_III done 
+#
+# Multi/Sub Tooth_B_VI (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_B_VI done 
+#
+# Multi/Sub Tooth_B_V (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_B_V done 
+#
+newmtl Palatine_bone_
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.2 0.2 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Mandible
+Ka  0.8 0.4 0.1
+Kd  0.8 0.4 0.1
+Ks  0.2 0.1 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_A_II (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_A_II done 
+#
+# Multi/Sub Tooth_A_I (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_A_I done 
+#
+# Multi/Sub Tooth_A_IV (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_A_IV done 
+#
+newmtl Skeleton_Cartilage
+Ka  0.6 0.7 0.7
+Kd  0.6 0.7 0.7
+Ks  0.2 0.2 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Skeleton_Scapula
+Ka  0.3 0.4 0.7
+Kd  0.3 0.4 0.7
+Ks  0.1 0.2 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_B_VIII (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_B_VIII done 
+#
+# Multi/Sub Tooth_B_VII (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_B_VII done 
+#
+# Multi/Sub Tooth_B_X (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_B_X done 
+#
+# Multi/Sub Tooth_B_IX (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_B_IX done 
+#
+# Multi/Sub Tooth_B_XII (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_B_XII done 
+#
+# Multi/Sub Tooth_B_XI (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_B_XI done 
+#
+# Multi/Sub Tooth_B_XIV (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_B_XIV done 
+#
+# Multi/Sub Tooth_B_XIII (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_B_XIII done 
+#
+# Multi/Sub Tooth_B_XVI (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_B_XVI done 
+#
+# Multi/Sub Tooth_B_XV (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_B_XV done 
+#
+newmtl Skeleton_Vertebra_C1
+Ka  0.2 0.3 0.6
+Kd  0.2 0.3 0.6
+Ks  0.1 0.2 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Skeleton_Vertebra_C2
+Ka  0.2 0.4 0.7
+Kd  0.2 0.4 0.7
+Ks  0.1 0.2 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Skeleton_Vertebra_C3_7
+Ka  0.2 0.5 0.6
+Kd  0.2 0.5 0.6
+Ks  0.1 0.3 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_A_III (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_A_III done 
+#
+# Multi/Sub Tooth_A_VI (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_A_VI done 
+#
+# Multi/Sub Tooth_A_V (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_A_V done 
+#
+# Multi/Sub Tooth_A_VIII (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_A_VIII done 
+#
+# Multi/Sub Tooth_A_VII (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_A_VII done 
+#
+# Multi/Sub Tooth_A_X (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_A_X done 
+#
+# Multi/Sub Tooth_A_IX (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_A_IX done 
+#
+# Multi/Sub Tooth_A_XII (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_A_XII done 
+#
+# Multi/Sub Tooth_A_XI (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_A_XI done 
+#
+# Multi/Sub Tooth_A_XIV (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_A_XIV done 
+#
+# Multi/Sub Tooth_A_XIII (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_A_XIII done 
+#
+# Multi/Sub Tooth_A_XVI (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_A_XVI done 
+#
+# Multi/Sub Tooth_A_XV (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_A_XV done 
+#
+# Multi/Sub Tooth_B_II (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_B_II done 
+#
+# Multi/Sub Tooth_B_I (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_B_I done 
+#
+# Multi/Sub Tooth_B_IV (2) to come 
+#
+newmtl Tooth_enamel
+Ka  0.8 0.8 0.7
+Kd  0.8 0.8 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Tooth_cementum
+Ka  0.5 0.5 0.4
+Kd  0.5 0.5 0.4
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Tooth_B_IV done 
+#
+newmtl Skeleton_Vertebra_T1_12
+Ka  0.2 0.6 0.2
+Kd  0.2 0.6 0.2
+Ks  0.1 0.3 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Skeleton_Manubrium_of_Sternum
+Ka  0.3 0.7 0.4
+Kd  0.3 0.7 0.4
+Ks  0.2 0.3 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Skeleton_Clavicle
+Ka  0.2 0.5 0.7
+Kd  0.2 0.5 0.7
+Ks  0.1 0.3 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Skeleton_Rib_1_2
+Ka  0.3 0.7 0.7
+Kd  0.3 0.7 0.7
+Ks  0.1 0.3 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Skeleton_Sternum
+Ka  0.2 0.6 0.4
+Kd  0.2 0.6 0.4
+Ks  0.1 0.3 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M_Torso_ABDOMINISL_m__pectorali
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M_Torso_ABDOMINISL_m__intercost
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.1 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Capitis_m__temporalis
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Capitis_m__masseter
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Colli_m__platysma
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Capitis_m__risorius
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Capitis_m__depressor_anguli_
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Capitis_m__depressor_labii_i
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Capitis_m__zygomaticus_minor
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M_Torso_DORSI_m__rectus_capitis
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M_Torso_DORSI_m__obliquus_capit
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M_Torso_DORSI_m__obliquus_capit0
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M_Torso_DORSI_m__longissimus_ca
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Colli_m__scalenus_posterior
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Membri_Superioris_m__subscap
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Membri_Superioris_m__suprasp
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Membri_Superioris_m__deltoid
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M_Torso_DORSI_m__levator_scapul
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M_Torso_DORSI_m__semispinalis_c
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Capitis_m__zygomaticus_major
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Capitis_m__levator_anguli_or
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Capitis_m__pterygoideus_late
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Capitis_m__pterigoideus_medi
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Capitis_m__buccinator
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M_Torso_DORSI_m__trapezius
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M_Torso_DORSI_m___splenius_capi
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M_Torso_DORSI_m__iliocostalis_c
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub M__Capitis_m__epicranius (3) to come 
+#
+newmtl M__Capitis_m__epicranius__occip
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Capitis_m__epicranius__galea
+Ka  0.7 0.8 0.8
+Kd  0.7 0.8 0.8
+Ks  0.2 0.2 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Capitis_m__epicranius__front
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub M__Capitis_m__epicranius done 
+#
+newmtl M__Capitis_m__nasalis
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Capitis_m__orbicularis_oris
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub M__Capitis_m__orbicularis_oculi__R (2) to come 
+#
+newmtl M__Capitis_m__orbicularis_oculi
+Ka  0.7 0.8 0.8
+Kd  0.7 0.8 0.8
+Ks  0.2 0.2 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Capitis_m__orbicularis_oculi0
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub M__Capitis_m__orbicularis_oculi__R done 
+#
+# Multi/Sub M__Capitis_m__orbicularis_oculi__L (2) to come 
+#
+newmtl M__Capitis_m__orbicularis_oculi
+Ka  0.7 0.8 0.8
+Kd  0.7 0.8 0.8
+Ks  0.2 0.2 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Capitis_m__orbicularis_oculi0
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub M__Capitis_m__orbicularis_oculi__L done 
+#
+newmtl M__Capitis_m__levator_labii_sup
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M_Torso_ABDOMINISL_m__intercost0
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Capitis_m__mentalis
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M_Torso_DORSI_m__rectus_capitis0
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Colli_m__mylohyoideus
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub M__Colli_m__digastricus_R (2) to come 
+#
+newmtl M__Colli_m__digastricus
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Colli_m__digastricus_tendon_
+Ka  0.7 0.8 0.8
+Kd  0.7 0.8 0.8
+Ks  0.2 0.2 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub M__Colli_m__digastricus_R done 
+#
+# Multi/Sub M__Colli_m__digastricus_L (2) to come 
+#
+newmtl M__Colli_m__digastricus
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Colli_m__digastricus_tendon_
+Ka  0.7 0.8 0.8
+Kd  0.7 0.8 0.8
+Ks  0.2 0.2 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub M__Colli_m__digastricus_L done 
+#
+newmtl M__Colli_m__sternohyoideus
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Colli_m__sternothyreoideus
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Colli_m__sternocleidomastoid
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Colli_m__geniohyoideus
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Colli_m__thyrohyoideus
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Colli_m__stylohyoideus
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub M__Colli_m__omohyoideus_R (2) to come 
+#
+newmtl M__Colli_m__omohyoideus
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Colli_m__omohyoideus_tendon_
+Ka  0.7 0.8 0.8
+Kd  0.7 0.8 0.8
+Ks  0.2 0.2 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub M__Colli_m__omohyoideus_R done 
+#
+# Multi/Sub M__Colli_m__omohyoideus_L (2) to come 
+#
+newmtl M__Colli_m__omohyoideus
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Colli_m__omohyoideus_tendon_
+Ka  0.7 0.8 0.8
+Kd  0.7 0.8 0.8
+Ks  0.2 0.2 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub M__Colli_m__omohyoideus_L done 
+#
+newmtl M__Colli_m__scalenus_medius
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M__Colli_m__scalenus_anterior
+Ka  0.6 0.2 0.2
+Kd  0.6 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl M_Torso_DORSI_lig__nuchr
+Ka  0.7 0.8 0.8
+Kd  0.7 0.8 0.8
+Ks  0.2 0.2 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Male_Skin (3) to come 
+#
+newmtl Body_base
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.2 0.2 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BODY_Skin
+Ka  0.6 0.5 0.4
+Kd  0.6 0.5 0.4
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BODY_Lips
+Ka  0.6 0.3 0.3
+Kd  0.6 0.3 0.3
+Ks  0.1 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Male_Skin done 
+#
+# Multi/Sub Eye_R (3) to come 
+#
+newmtl EYE_Sclera
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.3 0.3 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl EYE_Iris
+Ka  0.1 0.1 0.1
+Kd  0.1 0.1 0.1
+Ks  0.1 0.1 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl EYE_Pupil
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Eye_R done 
+#
+# Multi/Sub Eye_L (3) to come 
+#
+newmtl EYE_Sclera
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.3 0.3 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl EYE_Iris
+Ka  0.1 0.1 0.1
+Kd  0.1 0.1 0.1
+Ks  0.1 0.1 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl EYE_Pupil
+Ka  0.0 0.0 0.0
+Kd  0.0 0.0 0.0
+Ks  0.0 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Eye_L done 
+#
+newmtl EYE_Cornea
+Ka  0.6 0.6 0.6
+Kd  0.6 0.6 0.6
+Ks  0.4 0.4 0.4
+d  0.1
+Ns  0.0
+illum 2
+#
+newmtl BODY_Eyebrow
+Ka  0.1 0.1 0.0
+Kd  0.1 0.1 0.0
+Ks  0.1 0.0 0.0
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl BODY_Eyelashes
+Ka  0.3 0.2 0.2
+Kd  0.3 0.2 0.2
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Respiratory_LARYNX_Arytenoid_ca
+Ka  0.3 0.7 0.6
+Kd  0.3 0.7 0.6
+Ks  0.2 0.4 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Respiratory_LARYNX_Corniculate_
+Ka  0.7 0.7 0.3
+Kd  0.7 0.7 0.3
+Ks  0.4 0.4 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Respiratory_LARYNX_Cricoid_cart
+Ka  0.3 0.6 0.7
+Kd  0.3 0.6 0.7
+Ks  0.1 0.3 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Respiratory_LARYNX_Cricothyroid
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Ductless_glands_Parathyroid
+Ka  0.7 0.5 0.3
+Kd  0.7 0.5 0.3
+Ks  0.4 0.2 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Ductless_glands_Thyroid
+Ka  0.7 0.6 0.3
+Kd  0.7 0.6 0.3
+Ks  0.4 0.3 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Respiratory_LARYNX_Elastic_conu
+Ka  0.8 0.8 0.8
+Kd  0.8 0.8 0.8
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Respiratory_LARYNX_Epiglottis
+Ka  0.8 0.5 0.6
+Kd  0.8 0.5 0.6
+Ks  0.4 0.2 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Respiratory_LARYNX_Hyoepiglotti
+Ka  0.8 0.8 0.8
+Kd  0.8 0.8 0.8
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Respiratory_LARYNX_Lingual_bone
+Ka  0.7 0.7 0.5
+Kd  0.7 0.7 0.5
+Ks  0.4 0.4 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Respiratory_Lung
+Ka  0.7 0.4 0.5
+Kd  0.7 0.4 0.5
+Ks  0.2 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Respiratory_LARYNX_Thyrohyoid_m
+Ka  0.8 0.8 0.8
+Kd  0.8 0.8 0.8
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Respiratory_LARYNX_Thyroid_cart
+Ka  0.5 0.7 0.7
+Kd  0.5 0.7 0.7
+Ks  0.2 0.3 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Respiratory_LARYNX_Tracheal_car
+Ka  0.7 0.7 0.7
+Kd  0.7 0.7 0.7
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Respiratory_Tracheal_cartilages
+Ka  0.1 0.4 0.6
+Kd  0.1 0.4 0.6
+Ks  0.1 0.2 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Triticeal_cartilage_triticeum_L (2) to come 
+#
+newmtl Respiratory_LARYNX_Triticeal_ca
+Ka  0.6 0.7 0.5
+Kd  0.6 0.7 0.5
+Ks  0.3 0.4 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Respiratory_LARYNX_Thyrohyoid_m
+Ka  0.8 0.8 0.8
+Kd  0.8 0.8 0.8
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Triticeal_cartilage_triticeum_L done 
+#
+# Multi/Sub Triticeal_cartilage_triticeum_R (2) to come 
+#
+newmtl Respiratory_LARYNX_Triticeal_ca
+Ka  0.6 0.7 0.5
+Kd  0.6 0.7 0.5
+Ks  0.3 0.4 0.2
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Respiratory_LARYNX_Thyrohyoid_m
+Ka  0.8 0.8 0.8
+Kd  0.8 0.8 0.8
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Triticeal_cartilage_triticeum_R done 
+#
+newmtl Respiratory_LARYNX_Vocal_cord
+Ka  0.7 0.8 0.8
+Kd  0.7 0.8 0.8
+Ks  0.4 0.4 0.4
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Circulatory_Body_Arteries
+Ka  0.7 0.1 0.1
+Kd  0.7 0.1 0.1
+Ks  0.3 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Arteries_L (2) to come 
+#
+newmtl Circulatory_Body_Arteries
+Ka  0.7 0.1 0.1
+Kd  0.7 0.1 0.1
+Ks  0.3 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Circulatory_L__Subclavian_Art
+Ka  0.7 0.1 0.1
+Kd  0.7 0.1 0.1
+Ks  0.3 0.1 0.1
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Arteries_L done 
+#
+# Multi/Sub Veins (2) to come 
+#
+newmtl Circulatory_Superior_Vena_Cave
+Ka  0.1 0.4 0.7
+Kd  0.1 0.4 0.7
+Ks  0.1 0.2 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+newmtl Circulatory_Body_Veins
+Ka  0.1 0.4 0.7
+Kd  0.1 0.4 0.7
+Ks  0.1 0.2 0.3
+d  1.0
+Ns  0.0
+illum 2
+#
+# Multi/Sub Veins done 
+#
+# EOF
