@@ -1,6 +1,6 @@
 ## 1. Your team name
 
-Ultrasonic Probe Central Line Training
+VR Medical Device Training
 
 
 
@@ -37,7 +37,11 @@ Oculus Quest
 Ultrasonic Probe Central Line Training
 
 ## 7.Project directory overview
+Because each of us worked on different features at the same time, we kept several different scenes in our project. 
 
+Our main scene is at: Assets/Scenes/addInstruction
+
+Our scripts are at: Assets/Scripts
 
 
 ## 8.Special Instructions, if any, for deploying your app
@@ -54,9 +58,11 @@ None.
 
 ## 11.Missing features
 
-1. A good asset as the hospital environment.
+None
 
 ## 12.Bugs in your code and in any system you used
+No observed bugs in our code.
+
 
 1. The syringe and probe are difficult to grab sometimes. May need to make the collider larger.
 
