@@ -4,7 +4,7 @@ VR Medical Device Training
 
 
 
-![yayy](\yayy.png)
+![yayy](yayy.png)
 
 ## 2. Your names and UNIs
 
