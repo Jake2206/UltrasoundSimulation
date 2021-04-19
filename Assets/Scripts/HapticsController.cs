@@ -36,7 +36,7 @@ public class HapticsController : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         Debug.Log("Collision: " + collision.gameObject.name);
-        if (collision.gameObject.name == "Body" || collision.gameObject.name == "HuMan")
+        if (collision.gameObject.tag == "body")
         {
             setHaptics();
             Debug.Log("Setting Haptics");
@@ -45,7 +45,7 @@ public class HapticsController : MonoBehaviour
 
     private void OnCollisionExit(Collision collision)
     {
-        if (collision.gameObject.name == "Body")
+        if (collision.gameObject.tag == "body")
         {
             resetHaptics();
             Debug.Log("Resetting Haptics");
