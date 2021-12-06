@@ -3,22 +3,22 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class DepthControl : MonoBehaviour
 {
 
-    public GameObject depthFilter;
+    public Camera cam; //you are setting up a function that changes the camera depth (clipping planes?) get the onclick from mrtk button
     //public Text depthLabel;
-    private double maxDepth = 5.0;
-    private int scaleSpeed = 200;
-    private double depthScale = 1.0;
-    private string depthUnitText = "mm";
+    private float minDepth = .23f;
+    private float maxDepth = .37f;
+    //private string depthUnitText = "mm";
 
     // Start is called before the first frame update
     void Start()
     {
         
     }
-
+    /*
     // Update is called once per frame
     void Update()
     {
@@ -34,11 +34,35 @@ public class DepthControl : MonoBehaviour
 
         }
     }
-
-    double calculateDepth()
+    */
+    public void updateDepth(float change)
     {
-        var localScaleY = depthFilter.transform.localScale[2];
-        var depth = maxDepth - localScaleY / depthScale;
-        return depth;
+        if (change > 0)
+        {
+            if ((cam.farClipPlane + change) < maxDepth)
+            {
+                cam.farClipPlane += change;
+                cam.nearClipPlane += change;
+            }
+            else
+            {
+                cam.farClipPlane = maxDepth;
+                cam.nearClipPlane = maxDepth - 1;
+            }
+        }
+        else
+        {
+            if (cam.nearClipPlane > minDepth)
+            {
+                cam.nearClipPlane += change;
+                cam.farClipPlane += change;
+            }
+            else
+            {
+                cam.nearClipPlane = minDepth;
+                cam.farClipPlane = minDepth + 1;
+            }
+        }
+        return;
     }
 }

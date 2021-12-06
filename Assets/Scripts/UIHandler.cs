@@ -81,8 +81,8 @@ public class UIHandler : MonoBehaviour
             "Hold the ultrasonic probe with the right hand and place it on the human body.",
             "Slowly move the probe and watch the ultrasonic image carefully.",
             "Visualize internal jugular on both right and left side to help select procedural site.",
-            "Hold syringe on the left hand and do the insertion.",
-            "You are now finishied the entire process. You can now hide the instruction panel in the main menu.",
+            "Hold syringe in the left hand and insert.",
+            "You have now finished the entire process. You can hide the instruction panel in the main menu.",
 
         };
         nStep = procedureDescriptions.Length;
