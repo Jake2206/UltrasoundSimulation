@@ -18,9 +18,10 @@ public class DepthUpdate : MonoBehaviour
         cur_pos = sliderScript.SliderValue;
     }
 
-    void OnSliderUpdated(SliderEventData eventData)
+    public void sendUpdate(float sliderValue)
     {
-        dc.updateDepth(sliderScript.SliderValue - cur_pos);
+        Debug.Log(sliderValue.ToString());
+        dc.updateDepth(sliderValue - cur_pos + 100);
         cur_pos = sliderScript.SliderValue;
     }
 }
