@@ -35,11 +35,11 @@ public class HapticsController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("Collision: " + collision.gameObject.name);
+        //Debug.Log("Collision: " + collision.gameObject.name);
         if (collision.gameObject.tag == "body")
         {
             setHaptics();
-            Debug.Log("Setting Haptics");
+            //Debug.Log("Setting Haptics");
         }
     }
 
@@ -48,7 +48,7 @@ public class HapticsController : MonoBehaviour
         if (collision.gameObject.tag == "body")
         {
             resetHaptics();
-            Debug.Log("Resetting Haptics");
+            //Debug.Log("Resetting Haptics");
         }
     }
 }

@@ -4,11 +4,11 @@ using UnityEngine;
 using Microsoft.MixedReality.Toolkit.UI;
 using Microsoft.MixedReality.Toolkit.Input;
 
-public class DepthUpdate : MonoBehaviour
+public class GainUpdate : MonoBehaviour
 {
     public GameObject sliderParent;
     private PinchSlider sliderScript;
-    private DepthControl dc;
+    private GainControl dc;
     private float cur_pos;
 
     // Start is called before the first frame update
@@ -16,7 +16,7 @@ public class DepthUpdate : MonoBehaviour
     {
         sliderScript = sliderParent.GetComponent<PinchSlider>();
         cur_pos = sliderScript.SliderValue;
-        dc = sliderParent.GetComponent<DepthControl>();
+        dc = sliderParent.GetComponent<GainControl>();
     }
 
     private void Update()
@@ -31,7 +31,7 @@ public class DepthUpdate : MonoBehaviour
     public void sendUpdate(float sliderValue)
     {
         //Debug.Log(sliderValue.ToString());
-        dc.updateDepth((sliderValue - cur_pos)/10);
+        dc.updateDepth(sliderValue - cur_pos);
         cur_pos = sliderScript.SliderValue;
     }
 }
