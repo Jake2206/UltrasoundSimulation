@@ -16,12 +16,22 @@ public class DepthUpdate : MonoBehaviour
     {
         sliderScript = sliderParent.GetComponent<PinchSlider>();
         cur_pos = sliderScript.SliderValue;
+        dc = sliderParent.GetComponent<DepthControl>();
+    }
+
+    private void Update()
+    {
+        if (sliderScript.SliderValue != cur_pos)
+        {
+            sendUpdate(sliderScript.SliderValue);
+            cur_pos = sliderScript.SliderValue;
+        }
     }
 
     public void sendUpdate(float sliderValue)
     {
         Debug.Log(sliderValue.ToString());
-        dc.updateDepth(sliderValue - cur_pos + 100);
+        dc.updateDepth((sliderValue - cur_pos)/10);
         cur_pos = sliderScript.SliderValue;
     }
 }

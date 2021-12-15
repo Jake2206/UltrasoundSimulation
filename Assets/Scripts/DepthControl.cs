@@ -16,7 +16,7 @@ public class DepthControl : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        cam = GameObject.Find("UltraSonicProbe").GetComponent<Camera>();
+        //cam = GameObject.Find("UltraSonicProbe").GetComponent<Camera>();
     }
     /*
     Update the depth of the clipping plane on the probe camera.
@@ -39,7 +39,7 @@ public class DepthControl : MonoBehaviour
         }
         else
         {
-            if (cam.nearClipPlane > minDepth)
+            if (cam.nearClipPlane + change > minDepth)
             {
                 cam.nearClipPlane += change;
                 cam.farClipPlane += change;
