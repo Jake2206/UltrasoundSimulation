@@ -7,16 +7,12 @@ public class ProbeModelSwitch : MonoBehaviour
 
     public GameObject linearModel;
     public GameObject curveModel;
-    public GameObject linearFilter;
-    public GameObject curveFilter;
 
     // Start is called before the first frame update
     void Start()
     {
         linearModel.SetActive(false);
         curveModel.SetActive(true);
-        linearFilter.SetActive(false);
-        curveFilter.SetActive(true);
     }
 
     // Update is called once per frame
@@ -28,15 +24,11 @@ public class ProbeModelSwitch : MonoBehaviour
             {
                 linearModel.SetActive(false);
                 curveModel.SetActive(true);
-                linearFilter.SetActive(false);
-                curveFilter.SetActive(true);
             }
             else
             {
                 linearModel.SetActive(true);
                 curveModel.SetActive(false);
-                linearFilter.SetActive(true);
-                curveFilter.SetActive(false);
             }
         }
     }
