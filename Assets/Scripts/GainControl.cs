@@ -32,7 +32,7 @@ public class GainControl : MonoBehaviour
         change = change * 100;
         ev = colorGradingLayer.contrast.value;
         Debug.Log(ev);
-        if (change > 0)
+        if (change < 0)
         {
             if ((ev + change) < maxGain)
             {

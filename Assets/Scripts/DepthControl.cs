@@ -7,15 +7,21 @@ using UnityEngine.UI;
 public class DepthControl : MonoBehaviour
 {
 
-    public Camera cam; //this is the camera on the probe
+    public Camera orthoCam; //this is the camera on the probe
+    //public Camera curveCam; //this is the camera on the probe
     //public Text depthLabel;
-    private float minDepth = .23f;
-    private float maxDepth = .37f;
+    private float orthoMinDepth = .025f;
+    private float orthoMaxDepth = .035f;
+    //private float curveMinDepth = .05f;
+    //private float curveMaxDepth = .15f;
+    //private float orig_ortho_ypos;
+
     //private string depthUnitText = "mm";
 
     // Start is called before the first frame update
     void Start()
     {
+        //orig_ortho_ypos = orthoCam.gameObject.transform.position.y;
         //cam = GameObject.Find("UltraSonicProbe").GetComponent<Camera>();
     }
     /*
@@ -24,31 +30,57 @@ public class DepthControl : MonoBehaviour
     */
     public void updateDepth(float change)
     {
+        change *= .1f;
+        //float changeCurve = change * 0.1f;
+        //Vector3 pos = orthoCam.gameObject.transform.localPosition;
+        //Rect rec = orthoCam.rect;
+        Debug.Log(orthoCam.orthographicSize);
+        Debug.Log(change);
         if (change > 0)
         {
-            if ((cam.farClipPlane + change) < maxDepth)
+            if ((orthoCam.orthographicSize + change) <= orthoMaxDepth)
             {
-                cam.farClipPlane += change;
-                cam.nearClipPlane += change;
+                //orthoCam.rect = new Rect(rec.x, rec.y, rec.width + changeOrtho, rec.height);
+                // orthoCam.gameObject.transform.localPosition = new Vector3(pos.x, pos.y, pos.z + changeOrtho);
+                orthoCam.orthographicSize += change;
             }
             else
             {
-                cam.farClipPlane = maxDepth;
-                cam.nearClipPlane = maxDepth - 1;
+                //orthoCam.rect = new Rect(rec.x, rec.y, .85f, rec.height);
+                //orthoCam.gameObject.transform.localPosition = new Vector3(pos.x, pos.y, orig_ortho_ypos + 1.5f);
+                orthoCam.orthographicSize = orthoMaxDepth;
             }
+            /*if ((curveCam.farClipPlane + changeCurve) < curveMaxDepth)
+            {
+                curveCam.farClipPlane += changeCurve;
+            }
+            else
+            {
+                curveCam.farClipPlane = curveMaxDepth;
+            }*/
         }
         else
         {
-            if (cam.nearClipPlane + change > minDepth)
+            if (orthoCam.orthographicSize + change > orthoMinDepth)
             {
-                cam.nearClipPlane += change;
-                cam.farClipPlane += change;
+                //orthoCam.rect = new Rect(rec.x, rec.y, rec.width + changeOrtho, rec.height);
+                //orthoCam.gameObject.transform.localPosition = new Vector3(pos.x, pos.y, pos.z + changeOrtho);
+                orthoCam.orthographicSize += change;
             }
             else
             {
-                cam.nearClipPlane = minDepth;
-                cam.farClipPlane = minDepth + 1;
+                //orthoCam.rect = new Rect(rec.x, rec.y, .55f, rec.height);
+                //orthoCam.gameObject.transform.localPosition = new Vector3(pos.x, pos.y, orig_ortho_ypos - 1.5f);
+                orthoCam.orthographicSize = orthoMinDepth;
             }
+            /*if ((curveCam.farClipPlane + changeCurve) > curveMinDepth)
+            {
+                curveCam.farClipPlane += changeCurve;
+            }
+            else
+            {
+                curveCam.farClipPlane = curveMinDepth;
+            }*/
         }
         return;
     }
