@@ -34,8 +34,8 @@ public class DepthControl : MonoBehaviour
         //float changeCurve = change * 0.1f;
         //Vector3 pos = orthoCam.gameObject.transform.localPosition;
         //Rect rec = orthoCam.rect;
-        Debug.Log(orthoCam.orthographicSize);
-        Debug.Log(change);
+        //Debug.Log(orthoCam.orthographicSize);
+        //Debug.Log(change);
         if (change > 0)
         {
             if ((orthoCam.orthographicSize + change) <= orthoMaxDepth)

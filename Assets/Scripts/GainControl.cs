@@ -29,29 +29,29 @@ public class GainControl : MonoBehaviour
     */
     public void updateDepth(float change)
     {
-        change = change * 100;
-        ev = colorGradingLayer.contrast.value;
+        //change = change * 100;
+        ev = colorGradingLayer.postExposure.value;
         Debug.Log(ev);
-        if (change < 0)
+        if (change > 0)
         {
             if ((ev + change) < maxGain)
             {
-                colorGradingLayer.contrast.value += change;
+                colorGradingLayer.postExposure.value += change;
             }
             else
             {
-                colorGradingLayer.contrast.value = maxGain;
+                colorGradingLayer.postExposure.value = maxGain;
             }
         }
         else
         {
             if ((ev + change) > minGain)
             {
-                colorGradingLayer.contrast.value += change;
+                colorGradingLayer.postExposure.value += change;
             }
             else
             {
-                colorGradingLayer.contrast.value = minGain;
+                colorGradingLayer.postExposure.value = minGain;
             }
         }
         return;
