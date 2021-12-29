@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: 7b430d010089df340a210875050fc4b2
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable: []
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BODY_Eyebrow
+    second: {fileID: 2100000, guid: 6086d3f0563ad474c89f3feeed7de5ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BODY_Eyelashes
+    second: {fileID: 2100000, guid: 759bf3be4bfc74a108998befef991032, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BODY_Lips
+    second: {fileID: 2100000, guid: 88e7eb7440b534e329fe191784993d60, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BODY_Skin
+    second: {fileID: 2100000, guid: c32bba94e596d40d8a50d1c651ad8423, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Amygdala
+    second: {fileID: 2100000, guid: f990d1a3330ee4cba8cfa5540c54bd29, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_BRAIN_Ttrigone
+    second: {fileID: 2100000, guid: 3c1e38e11a87340f78c291600d2e8ad0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Caudate_nucleus
+    second: {fileID: 2100000, guid: 47f69f51079e84ee486f69b7a092b0c5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Cerebellum
+    second: {fileID: 2100000, guid: 678e8fc0222274b70a95b5078823c154, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Cerebral_peduncle
+    second: {fileID: 2100000, guid: 8f292bfa12b6147f99378a445c852e3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Cervical_nerves
+    second: {fileID: 2100000, guid: 4c8d30724b6654156b850698c00dae61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Corpus_collosum
+    second: {fileID: 2100000, guid: cd967bfb8f6df4af49dcc6dc14436473, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Cuneate_tubercle
+    second: {fileID: 2100000, guid: d3da81e505a344857bfb71b25c0c298c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_EYE_Black
+    second: {fileID: 2100000, guid: 283511172788541379dd6e9876903a64, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_EYE_Cornea
+    second: {fileID: 2100000, guid: d171257f2ed2a4cb4adfd4f03abfb0e7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_EYE_Iris
+    second: {fileID: 2100000, guid: 9a53902609a6340a59525b689c281969, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_EYE_Optic_Nerve
+    second: {fileID: 2100000, guid: fe28eec6576794d3780de3e4a6ab3b4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_EYE_Optic_nerve_sheath
+    second: {fileID: 2100000, guid: 7f6d7784b45f6482baa3bec6db5caea4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_EYE_Sclera
+    second: {fileID: 2100000, guid: fe6fcdc5cc2274667ae1a0c2a265d80e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Facial_colliculus
+    second: {fileID: 2100000, guid: fd79e317cb0e6480ca81581aa4736439, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Gracile_tubercle
+    second: {fileID: 2100000, guid: f588b32094dcd488ea47ea958415f043, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Gray
+    second: {fileID: 2100000, guid: 890036ca40a2d4bf3b0919f68f60e0e9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Gray_matter
+    second: {fileID: 2100000, guid: be458d1680164493f9736d4fb0d8efc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Gyrus__precentralis
+    second: {fileID: 2100000, guid: 757983034d2b74dacb5dc9f623685e9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Gyrus_frontalis
+    second: {fileID: 2100000, guid: c18cb5070a3b44dbb894705ef6b564ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Gyrus_postcentralis
+    second: {fileID: 2100000, guid: b613e3bdc7ecc4e7185fde0d357c5c97, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Gyrus_temporalis
+    second: {fileID: 2100000, guid: d237530deaf614acaa3ac31f505af81a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Hippocamp
+    second: {fileID: 2100000, guid: f18eee5bb38fc4c46909f14a0dfd0a70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Hypophysis
+    second: {fileID: 2100000, guid: e39d92850f2a74a928cf04a8c469b665, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Hypothalamus
+    second: {fileID: 2100000, guid: 88c6e625157b34591ab0730c8793b30b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Inferior_cerebellar_pedun
+    second: {fileID: 2100000, guid: 87bb29325f3644958ba322563051dd03, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Inferior_colliculus
+    second: {fileID: 2100000, guid: 418de8ff04c0d453bb978f7b680da18c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Infundibulum
+    second: {fileID: 2100000, guid: a662e93186b374f1a83ac10fc1335ee8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Lateral_geniculate_nucleu
+    second: {fileID: 2100000, guid: ca9760d5bcb924d2ea0fc47fd0ec85c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Lateral_recess
+    second: {fileID: 2100000, guid: 250853ccff29646adb6d9f5d26b160c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Limbic_system
+    second: {fileID: 2100000, guid: 42c42a4a608ed4e1db33d5767189894e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Mammillary_body
+    second: {fileID: 2100000, guid: bfb8c71916b854203975cbada796684c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Medial_geniculate_body
+    second: {fileID: 2100000, guid: daa562cccd43a40ce9b80345d2246ad8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Medulla
+    second: {fileID: 2100000, guid: db5465b57716e415bb206eaf3e2cb2a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Middle_cerebellar_peduncl
+    second: {fileID: 2100000, guid: 65809c6c941b041739742ba95cf25cdc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Nerve
+    second: {fileID: 2100000, guid: 112f6e0019b1047f8b80fe3c2c9e1bd8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Occipital_cortex
+    second: {fileID: 2100000, guid: 97198b3a7f94547978e360d842cda16e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Olfactory_bulb
+    second: {fileID: 2100000, guid: fe9c26fa9d9cb4a21bf00bedf512a144, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Olive_Piramid
+    second: {fileID: 2100000, guid: 9fd29d316b5414307b85c5095f1bad98, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Pineal_body
+    second: {fileID: 2100000, guid: 3ccaae8429f134042a81572e8482b9f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Piramid
+    second: {fileID: 2100000, guid: e97bbf0012fea489b827b5492d053576, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Pons
+    second: {fileID: 2100000, guid: 938a2171bfe3143f8b2c85f82a68cc86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Precuneus
+    second: {fileID: 2100000, guid: 27cc32b3f8eb745c6b2710435bd093d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Putamen
+    second: {fileID: 2100000, guid: a456165f779ec42c086772dd71fb5f38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Spinal_cord
+    second: {fileID: 2100000, guid: 937a67697b35947dc91a5e50a22f28dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Striae
+    second: {fileID: 2100000, guid: a515499d94ccc4e1d89b092d2207da30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Structure
+    second: {fileID: 2100000, guid: f67d5aed6b734470cb83b8e16442ef2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Superior_cerebellar_pedun
+    second: {fileID: 2100000, guid: 86693939f71934f36b9e781c7545c8b5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Superior_colliculus
+    second: {fileID: 2100000, guid: 2579bc9a305464d37a9b7f013171ec69, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Thalamus
+    second: {fileID: 2100000, guid: 91e6abf23e4c147ce98dd7d9faef6ea2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Ventricle_of_brain
+    second: {fileID: 2100000, guid: 0d40a9eeb6a9440f9bb25f370e420a6e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: BRAIN_Vestibular_area
+    second: {fileID: 2100000, guid: e7b1d15b5171e44f1a7b4ae912791180, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Body_base
+    second: {fileID: 2100000, guid: 0dad26840691441a1b24d8deea62718f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Circulatory_Body_Arteries
+    second: {fileID: 2100000, guid: 2b4ff5c852e2840c3a5dd160b9ccce3f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Circulatory_Body_Veins
+    second: {fileID: 2100000, guid: db8c190a40a7344a4a15199cd0d6e0d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Circulatory_L__Subclavian_Art
+    second: {fileID: 2100000, guid: 8fd9b2d33e54b49f7ac1b1bbcb8af735, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Circulatory_Superior_Vena_Cave
+    second: {fileID: 2100000, guid: 6a4a47e67c2cc40abb01ab97256b050c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ductless_glands_Parathyroid
+    second: {fileID: 2100000, guid: f99717878be0f4c7388c390c08fba772, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ductless_glands_Thyroid
+    second: {fileID: 2100000, guid: fee624cfb3f524ed2937d9e95739c564, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EYE_Cornea
+    second: {fileID: 2100000, guid: 2726728e92c624f9692dd30ae9e57810, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EYE_Iris
+    second: {fileID: 2100000, guid: 06bb8ba3c71124d4e93df39eed1cebe6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EYE_Pupil
+    second: {fileID: 2100000, guid: 6afcb6655c9ee45d4b80d1000b97a9a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: EYE_Sclera
+    second: {fileID: 2100000, guid: e7e063e482bac4353a84d1bf79186bb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ethmoid_bone
+    second: {fileID: 2100000, guid: 51fe1cc9aa3ce4747bb7eb1b2eaf2e18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Frontal_bone
+    second: {fileID: 2100000, guid: d50975f271017497c88af84a1d695411, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Inferior_concha
+    second: {fileID: 2100000, guid: 5e5cae3f9668c43f0a613620ebc78f84, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lacrimal_bone
+    second: {fileID: 2100000, guid: e532f984855ff47c59350f47d34d8261, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Torso_ABDOMINISL_m__intercost
+    second: {fileID: 2100000, guid: 8839e3c680fc94d06a05a1487dc2595d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Torso_ABDOMINISL_m__intercost0
+    second: {fileID: 2100000, guid: 7ff57ed81a96c4db290384196aa44d13, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Torso_ABDOMINISL_m__pectorali
+    second: {fileID: 2100000, guid: 03169ef37ff624a5f93e745b35d65502, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Torso_DORSI_lig__nuchr
+    second: {fileID: 2100000, guid: 7eba6dcdb2dff43e7baad37ce6f101bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Torso_DORSI_m___splenius_capi
+    second: {fileID: 2100000, guid: 8c563e0fae2d74b97b78ad1ca3832b9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Torso_DORSI_m__iliocostalis_c
+    second: {fileID: 2100000, guid: e5eecf4a2004841f5bbb358ee1975efc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Torso_DORSI_m__levator_scapul
+    second: {fileID: 2100000, guid: 7ab181c206fd545e4b765ad38f8cf0a7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Torso_DORSI_m__longissimus_ca
+    second: {fileID: 2100000, guid: fbb20a784277a49d8abc36303a4748e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Torso_DORSI_m__obliquus_capit
+    second: {fileID: 2100000, guid: bc37d03c63863427a845e7ef55fec9f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Torso_DORSI_m__obliquus_capit0
+    second: {fileID: 2100000, guid: e8ace585bcd734ab48a3b28b86813187, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Torso_DORSI_m__rectus_capitis
+    second: {fileID: 2100000, guid: 7e4f1ca51237b4b3dba0018dfc85c72f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Torso_DORSI_m__rectus_capitis0
+    second: {fileID: 2100000, guid: d9f1df6ae1388422dac04fe7e655a29f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Torso_DORSI_m__semispinalis_c
+    second: {fileID: 2100000, guid: ecc9af9ff0ad441d88d7de05c2d26645, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M_Torso_DORSI_m__trapezius
+    second: {fileID: 2100000, guid: fec01dd2fe9264a91920503bac46d3fc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Capitis_m__buccinator
+    second: {fileID: 2100000, guid: 3f644c4ee531c4fb694cb727b0f9175d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Capitis_m__depressor_anguli_
+    second: {fileID: 2100000, guid: c5af215d50ff142f0877afa62b8da3ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Capitis_m__depressor_labii_i
+    second: {fileID: 2100000, guid: e9f6f037adcd241608a81ec88c49d37e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Capitis_m__epicranius__front
+    second: {fileID: 2100000, guid: f89a1ef6349fe4cf2859009f5611875b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Capitis_m__epicranius__galea
+    second: {fileID: 2100000, guid: ec56b08628bf847f8b77b8d4d80b417b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Capitis_m__epicranius__occip
+    second: {fileID: 2100000, guid: eb52bec1193df4510ae1655aedbaffd2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Capitis_m__levator_anguli_or
+    second: {fileID: 2100000, guid: 2d410c2b8067440f18482a92dde51e8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Capitis_m__levator_labii_sup
+    second: {fileID: 2100000, guid: 0dc510756c891463fbc4c5c76d27a6d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Capitis_m__masseter
+    second: {fileID: 2100000, guid: 24552c21d04fa4ee3abd7741ce6572f4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Capitis_m__mentalis
+    second: {fileID: 2100000, guid: c0d9d812979cd41cabf566904a86e74d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Capitis_m__nasalis
+    second: {fileID: 2100000, guid: cee46b0c43e1945a4931c0300aa8ba16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Capitis_m__orbicularis_oculi
+    second: {fileID: 2100000, guid: 46475c3200c3d452cb6fda9789ba2a23, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Capitis_m__orbicularis_oculi0
+    second: {fileID: 2100000, guid: 6c39382e89eab42208a4e02a07834069, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Capitis_m__orbicularis_oris
+    second: {fileID: 2100000, guid: b324cfa3be5794ce2a07b7213fc44fc7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Capitis_m__pterigoideus_medi
+    second: {fileID: 2100000, guid: 0b744a0028987405393a45557d436ca6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Capitis_m__pterygoideus_late
+    second: {fileID: 2100000, guid: 29e17a6e668014eeeb6ef5bc98b5d565, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Capitis_m__risorius
+    second: {fileID: 2100000, guid: 309357e55842c462faec470961ad39a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Capitis_m__temporalis
+    second: {fileID: 2100000, guid: 213b1d462403f40f6919008da1d9d6bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Capitis_m__zygomaticus_major
+    second: {fileID: 2100000, guid: 0c0f2aff6f47c4c9aa6eb68c64763398, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Capitis_m__zygomaticus_minor
+    second: {fileID: 2100000, guid: 0f3e072320cd74d78a656aa534f8b475, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Colli_m__digastricus
+    second: {fileID: 2100000, guid: 7e235c93064824ab1872bbad2e94d286, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Colli_m__digastricus_tendon_
+    second: {fileID: 2100000, guid: 037a4ef5d1b8e42d8910d62f61e70baa, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Colli_m__geniohyoideus
+    second: {fileID: 2100000, guid: a6c9a7c3f81c34c23a84834b0d0daf9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Colli_m__mylohyoideus
+    second: {fileID: 2100000, guid: ffe682083eed645a7b03e528de519da7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Colli_m__omohyoideus
+    second: {fileID: 2100000, guid: bb0297ddab1354d9dafcf98f39e217e4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Colli_m__omohyoideus_tendon_
+    second: {fileID: 2100000, guid: 38d625e1a848b44c2a8edbd6d9ba0fa8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Colli_m__platysma
+    second: {fileID: 2100000, guid: abd2d161c772e4cf6b6148dfb5d4c646, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Colli_m__scalenus_anterior
+    second: {fileID: 2100000, guid: 12c76ee6f156a4aeebe971b7e976ee2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Colli_m__scalenus_medius
+    second: {fileID: 2100000, guid: d266cc2d18dcf43db866d476693410f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Colli_m__scalenus_posterior
+    second: {fileID: 2100000, guid: 210a071e2d8104b1ea3029618f5f1ab5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Colli_m__sternocleidomastoid
+    second: {fileID: 2100000, guid: 60039232f4315487fbfd723e01e699bf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Colli_m__sternohyoideus
+    second: {fileID: 2100000, guid: 21e950e77584c4dc491da939d4dc11e2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Colli_m__sternothyreoideus
+    second: {fileID: 2100000, guid: f6d9a5968dbf240dca8973675283cc5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Colli_m__stylohyoideus
+    second: {fileID: 2100000, guid: c890a3c099c404d2e89b816480e145ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Colli_m__thyrohyoideus
+    second: {fileID: 2100000, guid: 28b496b89ed7f4f14a344563be1ad4c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Membri_Superioris_m__deltoid
+    second: {fileID: 2100000, guid: d39c0aa4e83d5486eb63456ccbb21564, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Membri_Superioris_m__subscap
+    second: {fileID: 2100000, guid: 0903e82384417410aac6b354e8b0f240, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: M__Membri_Superioris_m__suprasp
+    second: {fileID: 2100000, guid: 552cd1818e48647828876d67f3da39f0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mandible
+    second: {fileID: 2100000, guid: 7cd17c08f1f0b409eab587341b40fd05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Maxilla_bone
+    second: {fileID: 2100000, guid: 75f1ff3fbd45c496ca5c6545f280c7b8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Nasal_bone
+    second: {fileID: 2100000, guid: 9a70b7bb8b04e4f1abbffa4f40aecac3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Occipital_bone
+    second: {fileID: 2100000, guid: 7e872366cddbc4fb189b8fd85f173720, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Palatine_bone_
+    second: {fileID: 2100000, guid: 75a4956c0f8dd4abd9697b1b6f088ea3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Parietal_bone
+    second: {fileID: 2100000, guid: ce09be6cf0b5d46569418507a6f450b1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Respiratory_LARYNX_Arytenoid_ca
+    second: {fileID: 2100000, guid: c3e98e2ddb3e541c6a883848fe9ed4ff, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Respiratory_LARYNX_Corniculate_
+    second: {fileID: 2100000, guid: aaf68d12dc3134db3a967f714e675d7d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Respiratory_LARYNX_Cricoid_cart
+    second: {fileID: 2100000, guid: 134fcdbbaf1a049c989f239ca52b0fe6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Respiratory_LARYNX_Cricothyroid
+    second: {fileID: 2100000, guid: 73af3af7d94aa4c17a933cd4aa856979, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Respiratory_LARYNX_Elastic_conu
+    second: {fileID: 2100000, guid: bc9abb1db6c9a4578ad6570a196fff10, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Respiratory_LARYNX_Epiglottis
+    second: {fileID: 2100000, guid: 852a2e8c4a8184e45a36d395d0c60c21, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Respiratory_LARYNX_Hyoepiglotti
+    second: {fileID: 2100000, guid: 73d39a0bae2eb432490aa950151eddbb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Respiratory_LARYNX_Lingual_bone
+    second: {fileID: 2100000, guid: 982fa4a84e8c64e8cbe27368cf45235b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Respiratory_LARYNX_Thyrohyoid_m
+    second: {fileID: 2100000, guid: 598d5aaee4c774fb7a92d36784c23bc0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Respiratory_LARYNX_Thyroid_cart
+    second: {fileID: 2100000, guid: 5990763596c4843519e9ffa42c3ab149, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Respiratory_LARYNX_Tracheal_car
+    second: {fileID: 2100000, guid: a64da954afa3d4920a1d73ac24a7981a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Respiratory_LARYNX_Triticeal_ca
+    second: {fileID: 2100000, guid: 1e5f85e41173a4d49a21d646274da739, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Respiratory_LARYNX_Vocal_cord
+    second: {fileID: 2100000, guid: a81f4bc7a6652487cb265b4af96d3a0f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Respiratory_Lung
+    second: {fileID: 2100000, guid: 8031527dbc04747c0a777d1ce2875a8d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Respiratory_Tracheal_cartilages
+    second: {fileID: 2100000, guid: 2c7bd1df6e23a4d3a960ca3cae22b205, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_Cartilage
+    second: {fileID: 2100000, guid: 6edcd78f9100941cfb41602c15476b8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_Clavicle
+    second: {fileID: 2100000, guid: db4456aa494004357900b0fe562ed8d2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_Manubrium_of_Sternum
+    second: {fileID: 2100000, guid: 7f10c30c67af349c0afb5cd3be507e71, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_Rib_1_2
+    second: {fileID: 2100000, guid: d76c3f46766554c54ad77c6ada12f540, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_Scapula
+    second: {fileID: 2100000, guid: 46715b999ae44408ca2333ef7c1f9d3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_Sternum
+    second: {fileID: 2100000, guid: 9f734b69fcbb747fe84e427538b31dd4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_Vertebra_C1
+    second: {fileID: 2100000, guid: 4ed6f45125b94442ea21a3bf3ac07a8a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_Vertebra_C2
+    second: {fileID: 2100000, guid: aa4a3e01e411f405fa8864dd85466357, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_Vertebra_C3_7
+    second: {fileID: 2100000, guid: 4e352a34789b949799d8d16ce5e72f5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skeleton_Vertebra_T1_12
+    second: {fileID: 2100000, guid: c9f6110ca51ba4119a62b980267b4a7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sphenoid_bone
+    second: {fileID: 2100000, guid: 6c415fce138ae43e48b3634adab0044c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Temporal_bone
+    second: {fileID: 2100000, guid: 76b640ab2c11845d08513aa236bce0dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tooth_cementum
+    second: {fileID: 2100000, guid: 76e2a0e90e5c044a99352aa14060a075, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tooth_enamel
+    second: {fileID: 2100000, guid: 7af778c4da4844155a2c2abe9327960e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Vomer
+    second: {fileID: 2100000, guid: fd69e8770bf74479a91e5f808388c6b2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zygomatic_bone
+    second: {fileID: 2100000, guid: aca61a56f85e44e958fd7a23ee1d2f12, type: 2}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

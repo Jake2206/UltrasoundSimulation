@@ -1,0 +1,1135 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  3.5.9.1158
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl M_Torso_ABDOMINISL_m__pectorali
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M_Torso_ABDOMINISL_m__intercost
+Ka 0 0 0
+Kd 0.586667 0.153725 0.153725
+Ks 0.146667 0.0384314 0.0384314
+illum 2
+Ns 16
+
+newmtl M__Capitis_m__temporalis
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Capitis_m__masseter
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Colli_m__platysma
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Colli_m__mylohyoideus
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Capitis_m__depressor_anguli_
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Capitis_m__depressor_labii_i
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Capitis_m__zygomaticus_minor
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M_Torso_DORSI_m__obliquus_capit
+Ka 0 0 0
+Kd 0.636863 0.175686 0.175686
+Ks 0.159216 0.0439216 0.0439216
+illum 2
+Ns 16
+
+newmtl M_Torso_DORSI_m__obliquus_capit0
+Ka 0 0 0
+Kd 0.636863 0.175686 0.175686
+Ks 0.159216 0.0439216 0.0439216
+illum 2
+Ns 16
+
+newmtl M_Torso_DORSI_m__longissimus_ca
+Ka 0 0 0
+Kd 0.636863 0.175686 0.175686
+Ks 0.159216 0.0439216 0.0439216
+illum 2
+Ns 16
+
+newmtl M__Colli_m__scalenus_posterior
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Membri_Superioris_m__subscap
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Membri_Superioris_m__suprasp
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Membri_Superioris_m__deltoid
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M_Torso_DORSI_m__levator_scapul
+Ka 0 0 0
+Kd 0.636863 0.175686 0.175686
+Ks 0.159216 0.0439216 0.0439216
+illum 2
+Ns 16
+
+newmtl M_Torso_DORSI_m__semispinalis_c
+Ka 0 0 0
+Kd 0.636863 0.175686 0.175686
+Ks 0.159216 0.0439216 0.0439216
+illum 2
+Ns 16
+
+newmtl M__Capitis_m__zygomaticus_major
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Capitis_m__levator_anguli_or
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Capitis_m__pterygoideus_late
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Capitis_m__pterigoideus_medi
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Capitis_m__buccinator
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Capitis_m__risorius
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Capitis_m__epicranius__occip
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Capitis_m__epicranius__galea
+Ka 0 0 0
+Kd 0.727843 0.787451 0.781177
+Ks 0.181961 0.196863 0.195294
+illum 2
+Ns 16
+
+newmtl M__Capitis_m__epicranius__front
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Capitis_m__nasalis
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Capitis_m__orbicularis_oris
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Capitis_m__orbicularis_oculi
+Ka 0 0 0
+Kd 0.727843 0.787451 0.781177
+Ks 0.181961 0.196863 0.195294
+illum 2
+Ns 16
+
+newmtl M__Capitis_m__levator_labii_sup
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M_Torso_ABDOMINISL_m__intercost0
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Capitis_m__mentalis
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Colli_m__digastricus
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Colli_m__digastricus_tendon_
+Ka 0 0 0
+Kd 0.727843 0.787451 0.781177
+Ks 0.181961 0.196863 0.195294
+illum 2
+Ns 16
+
+newmtl M__Colli_m__sternohyoideus
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Colli_m__sternothyreoideus
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Colli_m__sternocleidomastoid
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Colli_m__geniohyoideus
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Colli_m__thyrohyoideus
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Colli_m__stylohyoideus
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Colli_m__omohyoideus
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Colli_m__omohyoideus_tendon_
+Ka 0 0 0
+Kd 0.727843 0.787451 0.781177
+Ks 0.181961 0.196863 0.195294
+illum 2
+Ns 16
+
+newmtl M__Colli_m__scalenus_medius
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M__Colli_m__scalenus_anterior
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl M_Torso_DORSI_lig__nuchr
+Ka 0 0 0
+Kd 0.652549 0.76549 0.774902
+Ks 0.163137 0.191373 0.193725
+illum 2
+Ns 16
+
+newmtl M_Torso_DORSI_m__trapezius
+Ka 0 0 0
+Kd 0.636863 0.175686 0.175686
+Ks 0.159216 0.0439216 0.0439216
+illum 2
+Ns 16
+
+newmtl M_Torso_DORSI_m___splenius_capi
+Ka 0 0 0
+Kd 0.636863 0.175686 0.175686
+Ks 0.159216 0.0439216 0.0439216
+illum 2
+Ns 16
+
+newmtl M_Torso_DORSI_m__rectus_capitis
+Ka 0 0 0
+Kd 0.636863 0.175686 0.175686
+Ks 0.159216 0.0439216 0.0439216
+illum 2
+Ns 16
+
+newmtl M_Torso_DORSI_m__rectus_capitis0
+Ka 0 0 0
+Kd 0.636863 0.175686 0.175686
+Ks 0.159216 0.0439216 0.0439216
+illum 2
+Ns 16
+
+newmtl M__Capitis_m__orbicularis_oculi0
+Ka 0 0 0
+Kd 0.649412 0.216471 0.216471
+Ks 0.162353 0.0541176 0.0541176
+illum 2
+Ns 16
+
+newmtl EYE_Eyelashes
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+illum 2
+Ns 8
+
+newmtl BODY_Skin
+Ka 0 0 0
+Kd 0.64 0.517647 0.426667
+Ks 0.16 0.129412 0.106667
+illum 2
+Ns 64
+
+newmtl BODY_Lips
+Ka 0 0 0
+Kd 0.564706 0.348235 0.263529
+Ks 0.141176 0.0870588 0.0658824
+illum 2
+Ns 64
+
+newmtl Body_base
+Ka 0 0 0
+Kd 0.715294 0.715294 0.715294
+Ks 0.178824 0.178824 0.178824
+illum 2
+Ns 64
+
+newmtl BODY_Hair_out
+Ka 0 0 0
+Kd 0.134902 0.0752941 0.0470588
+Ks 0.067451 0.0376471 0.0235294
+illum 2
+Ns 8
+
+newmtl BODY_Hair_in
+Ka 0 0 0
+Kd 0.134902 0.0752941 0.0470588
+Ks 0.067451 0.0376471 0.0235294
+illum 2
+Ns 8
+
+newmtl EYE_Sclera
+Ka 0 0 0
+Kd 0.655686 0.690196 0.73098
+Ks 0.327843 0.345098 0.36549
+illum 2
+Ns 8
+
+newmtl EYE_Iris
+Ka 0 0 0
+Kd 0.147451 0.103529 0.0878431
+Ks 0.0737255 0.0517647 0.0439216
+illum 2
+Ns 8
+
+newmtl EYE_Pupil
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+illum 2
+Ns 8
+
+newmtl EYE_Cornea
+Ka 0 0 0
+Kd 0.627451 0.627451 0.627451
+Ks 0.392157 0.392157 0.392157
+illum 2
+Ns 128
+d 0.1
+
+newmtl BODY_Eyebrow
+Ka 0 0 0
+Kd 0.134902 0.0752941 0.0470588
+Ks 0.067451 0.0376471 0.0235294
+illum 2
+Ns 8
+
+newmtl Tooth_cementum
+Ka 0 0 0
+Kd 0.517647 0.486275 0.351373
+Ks 0.129412 0.121569 0.0878431
+illum 2
+Ns 16
+
+newmtl Tooth_enamel
+Ka 0 0 0
+Kd 0.768627 0.76549 0.749804
+Ks 0.384314 0.382745 0.374902
+illum 2
+Ns 8
+
+newmtl Occipital_bone
+Ka 0 0 0
+Kd 0.351373 0.178824 0.0972549
+Ks 0.175686 0.0894118 0.0486275
+illum 2
+Ns 8
+
+newmtl Palatine_bone_
+Ka 0 0 0
+Kd 0.768627 0.752941 0.715294
+Ks 0.192157 0.188235 0.178824
+illum 2
+Ns 32
+
+newmtl Inferior_concha
+Ka 0 0 0
+Kd 0.19451 0.35451 0.621176
+Ks 0.0972549 0.177255 0.310588
+illum 2
+Ns 8
+
+newmtl Maxilla_bone
+Ka 0 0 0
+Kd 0.583529 0.156863 0.156863
+Ks 0.291765 0.0784314 0.0784314
+illum 2
+Ns 8
+
+newmtl Lacrimal_bone
+Ka 0 0 0
+Kd 0.473726 0.614902 0.100392
+Ks 0.236863 0.307451 0.0501961
+illum 2
+Ns 8
+
+newmtl Nasal_bone
+Ka 0 0 0
+Kd 0.203922 0.150588 0.577255
+Ks 0.101961 0.0752941 0.288627
+illum 2
+Ns 8
+
+newmtl Ethmoid_bone
+Ka 0 0 0
+Kd 0 0.401569 0
+Ks 0 0.200784 0
+illum 2
+Ns 8
+
+newmtl Zygomatic_bone
+Ka 0 0 0
+Kd 0.12549 0.448627 0.687059
+Ks 0.0627451 0.224314 0.343529
+illum 2
+Ns 8
+
+newmtl Vomer
+Ka 0 0 0
+Kd 0.235294 0.583529 0.608627
+Ks 0.117647 0.291765 0.304314
+illum 2
+Ns 8
+
+newmtl Temporal_bone
+Ka 0 0 0
+Kd 0 0.401569 0.200784
+Ks 0 0.200784 0.100392
+illum 2
+Ns 8
+
+newmtl Sphenoid_bone
+Ka 0 0 0
+Kd 0.589804 0.163137 0.492549
+Ks 0.294902 0.0815686 0.246275
+illum 2
+Ns 8
+
+newmtl Parietal_bone
+Ka 0 0 0
+Kd 0.51451 0.100392 0.222745
+Ks 0.257255 0.0501961 0.111373
+illum 2
+Ns 8
+
+newmtl Frontal_bone
+Ka 0 0 0
+Kd 0.759216 0.652549 0.0470588
+Ks 0.379608 0.326275 0.0235294
+illum 2
+Ns 8
+
+newmtl Skeleton_Rib_1_2
+Ka 0 0 0
+Kd 0.294902 0.699608 0.690196
+Ks 0.147451 0.349804 0.345098
+illum 2
+Ns 8
+
+newmtl Skeleton_Cartilage
+Ka 0 0 0
+Kd 0.625882 0.672549 0.672549
+Ks 0.178824 0.192157 0.192157
+illum 2
+Ns 16
+
+newmtl Skeleton_Vertebra_C3_7
+Ka 0 0 0
+Kd 0.200784 0.536471 0.646275
+Ks 0.100392 0.268235 0.323137
+illum 2
+Ns 8
+
+newmtl Skeleton_Vertebra_T1_12
+Ka 0 0 0
+Kd 0.216471 0.636863 0.247843
+Ks 0.108235 0.318431 0.123922
+illum 2
+Ns 8
+
+newmtl Skeleton_Manubrium_of_Sternum
+Ka 0 0 0
+Kd 0.313726 0.680784 0.448627
+Ks 0.156863 0.340392 0.224314
+illum 2
+Ns 8
+
+newmtl Skeleton_Sternum
+Ka 0 0 0
+Kd 0.166275 0.561569 0.373333
+Ks 0.0831373 0.280784 0.186667
+illum 2
+Ns 8
+
+newmtl Skeleton_Clavicle
+Ka 0 0 0
+Kd 0.232157 0.533333 0.712157
+Ks 0.116078 0.266667 0.356078
+illum 2
+Ns 8
+
+newmtl Skeleton_Scapula
+Ka 0 0 0
+Kd 0.254118 0.41098 0.668235
+Ks 0.127059 0.20549 0.334118
+illum 2
+Ns 8
+
+newmtl Skeleton_Vertebra_C1
+Ka 0 0 0
+Kd 0.207059 0.316863 0.64
+Ks 0.103529 0.158431 0.32
+illum 2
+Ns 8
+
+newmtl Skeleton_Vertebra_C2
+Ka 0 0 0
+Kd 0.191373 0.423529 0.655686
+Ks 0.0956863 0.211765 0.327843
+illum 2
+Ns 8
+
+newmtl Mandible
+Ka 0 0 0
+Kd 0.693333 0.370196 0.106667
+Ks 0.346667 0.185098 0.0533333
+illum 2
+Ns 64
+
+newmtl Circulatory_Superior_Vena_Cave
+Ka 0 0 0
+Kd 0.147451 0.436078 0.699608
+Ks 0.0737255 0.218039 0.349804
+illum 2
+Ns 256
+
+newmtl Circulatory_Body_Veins
+Ka 0 0 0
+Kd 0.147451 0.436078 0.699608
+Ks 0.0737255 0.218039 0.349804
+illum 2
+Ns 256
+
+newmtl Circulatory_Body_Arteries
+Ka 0 0 0
+Kd 0.671373 0.122353 0.122353
+Ks 0.335686 0.0611765 0.0611765
+illum 2
+Ns 256
+
+newmtl Circulatory_L__Subclavian_Art
+Ka 0 0 0
+Kd 0.671373 0.122353 0.122353
+Ks 0.335686 0.0611765 0.0611765
+illum 2
+Ns 256
+
+newmtl Respiratory_Tracheal_cartilages
+Ka 0 0 0
+Kd 0.109804 0.448627 0.596078
+Ks 0.054902 0.224314 0.298039
+illum 2
+Ns 256
+
+newmtl Respiratory_Lung
+Ka 0 0 0
+Kd 0.683922 0.442353 0.511373
+Ks 0.17098 0.110588 0.127843
+illum 2
+Ns 64
+
+newmtl Ductless_glands_Parathyroid
+Ka 0 0 0
+Kd 0.721569 0.454902 0.294902
+Ks 0.360784 0.227451 0.147451
+illum 2
+Ns 256
+
+newmtl Ductless_glands_Thyroid
+Ka 0 0 0
+Kd 0.721569 0.592941 0.294902
+Ks 0.360784 0.296471 0.147451
+illum 2
+Ns 256
+
+newmtl Respiratory_LARYNX_Epiglottis
+Ka 0 0 0
+Kd 0.756078 0.458039 0.60549
+Ks 0.378039 0.22902 0.302745
+illum 2
+Ns 256
+
+newmtl Respiratory_LARYNX_Hyoepiglotti
+Ka 0 0 0
+Kd 0.768627 0.768627 0.768627
+Ks 0.384314 0.384314 0.384314
+illum 2
+Ns 256
+
+newmtl Respiratory_LARYNX_Lingual_bone
+Ka 0 0 0
+Kd 0.746667 0.740392 0.467451
+Ks 0.373333 0.370196 0.233726
+illum 2
+Ns 256
+
+newmtl Respiratory_LARYNX_Triticeal_ca
+Ka 0 0 0
+Kd 0.555294 0.749804 0.464314
+Ks 0.277647 0.374902 0.232157
+illum 2
+Ns 256
+
+newmtl Respiratory_LARYNX_Thyrohyoid_m
+Ka 0 0 0
+Kd 0.768627 0.768627 0.768627
+Ks 0.384314 0.384314 0.384314
+illum 2
+Ns 256
+
+newmtl Respiratory_LARYNX_Thyroid_cart
+Ka 0 0 0
+Kd 0.473726 0.658824 0.740392
+Ks 0.236863 0.329412 0.370196
+illum 2
+Ns 256
+
+newmtl Respiratory_LARYNX_Cricoid_cart
+Ka 0 0 0
+Kd 0.260392 0.567843 0.699608
+Ks 0.130196 0.283922 0.349804
+illum 2
+Ns 256
+
+newmtl Respiratory_LARYNX_Arytenoid_ca
+Ka 0 0 0
+Kd 0.323137 0.715294 0.57098
+Ks 0.161569 0.357647 0.28549
+illum 2
+Ns 256
+
+newmtl Respiratory_LARYNX_Corniculate_
+Ka 0 0 0
+Kd 0.724706 0.724706 0.316863
+Ks 0.362353 0.362353 0.158431
+illum 2
+Ns 256
+
+newmtl Respiratory_LARYNX_Vocal_cord
+Ka 0 0 0
+Kd 0.721569 0.774902 0.787451
+Ks 0.360784 0.387451 0.393725
+illum 2
+Ns 256
+
+newmtl Respiratory_LARYNX_Cricothyroid
+Ka 0 0 0
+Kd 0.724706 0.724706 0.724706
+Ks 0.362353 0.362353 0.362353
+illum 2
+Ns 256
+
+newmtl Respiratory_LARYNX_Elastic_conu
+Ka 0 0 0
+Kd 0.768627 0.768627 0.768627
+Ks 0.384314 0.384314 0.384314
+illum 2
+Ns 256
+
+newmtl Respiratory_LARYNX_Tracheal_car
+Ka 0 0 0
+Kd 0.724706 0.724706 0.724706
+Ks 0.362353 0.362353 0.362353
+illum 2
+Ns 256
+
+newmtl BRAIN_Cervical_nerves
+Ka 0 0 0
+Kd 0.749804 0.702745 0.523922
+Ks 0.374902 0.351373 0.261961
+illum 2
+Ns 8
+
+newmtl BRAIN_Nerve
+Ka 0 0 0
+Kd 0.8 0.8 0.401569
+Ks 0.4 0.4 0.200784
+illum 2
+Ns 8
+
+newmtl BRAIN_Limbic_system
+Ka 0 0 0
+Kd 0.332549 0.219608 0.567843
+Ks 0.166275 0.109804 0.283922
+illum 2
+Ns 8
+
+newmtl BRAIN_Gyrus_postcentralis
+Ka 0 0 0
+Kd 0.141176 0.420392 0.426667
+Ks 0.0705882 0.210196 0.213333
+illum 2
+Ns 8
+
+newmtl BRAIN_Gyrus_temporalis
+Ka 0 0 0
+Kd 0.727843 0.407843 0.119216
+Ks 0.363922 0.203922 0.0596078
+illum 2
+Ns 8
+
+newmtl BRAIN_Occipital_cortex
+Ka 0 0 0
+Kd 0.219608 0.376471 0.545882
+Ks 0.109804 0.188235 0.272941
+illum 2
+Ns 8
+
+newmtl BRAIN_Precuneus
+Ka 0 0 0
+Kd 0.144314 0.351373 0.235294
+Ks 0.0721569 0.175686 0.117647
+illum 2
+Ns 8
+
+newmtl BRAIN_Gyrus_frontalis
+Ka 0 0 0
+Kd 0.555294 0.122353 0.122353
+Ks 0.277647 0.0611765 0.0611765
+illum 2
+Ns 8
+
+newmtl BRAIN_Gyrus__precentralis
+Ka 0 0 0
+Kd 0.561569 0.28549 0.153725
+Ks 0.280784 0.142745 0.0768627
+illum 2
+Ns 8
+
+newmtl BRAIN_Cerebellum
+Ka 0 0 0
+Kd 0.25098 0.138039 0.0909804
+Ks 0.12549 0.0690196 0.0454902
+illum 2
+Ns 8
+
+newmtl BRAIN_Inferior_cerebellar_pedun
+Ka 0 0 0
+Kd 0.508235 0.38902 0.213333
+Ks 0.254118 0.19451 0.106667
+illum 2
+Ns 8
+
+newmtl BRAIN_Superior_cerebellar_pedun
+Ka 0 0 0
+Kd 0.636863 0.22902 0.22902
+Ks 0.318431 0.11451 0.11451
+illum 2
+Ns 8
+
+newmtl BRAIN_Pons
+Ka 0 0 0
+Kd 0.175686 0.41098 0.417255
+Ks 0.0878431 0.20549 0.208627
+illum 2
+Ns 8
+
+newmtl BRAIN_Ventricle_of_brain
+Ka 0 0 0
+Kd 0.213333 0.580392 0.580392
+Ks 0.106667 0.290196 0.290196
+illum 2
+Ns 8
+
+newmtl BRAIN_EYE_Optic_Nerve
+Ka 0 0 0
+Kd 0.746667 0.712157 0.0533333
+Ks 0.373333 0.356078 0.0266667
+illum 2
+Ns 8
+
+newmtl BRAIN_EYE_Optic_nerve_sheath
+Ka 0 0 0
+Kd 0.756078 0.740392 0.630588
+Ks 0.378039 0.370196 0.315294
+illum 2
+Ns 8
+
+newmtl BRAIN_EYE_Sclera
+Ka 0 0 0
+Kd 0.655686 0.690196 0.73098
+Ks 0.327843 0.345098 0.36549
+illum 2
+Ns 8
+
+newmtl BRAIN_EYE_Black
+Ka 0 0 0
+Kd 0 0 0
+Ks 0 0 0
+illum 2
+Ns 8
+
+newmtl BRAIN_EYE_Iris
+Ka 0 0 0
+Kd 0.147451 0.103529 0.0878431
+Ks 0.0737255 0.0517647 0.0439216
+illum 2
+Ns 8
+
+newmtl BRAIN_EYE_Cornea
+Ka 0 0 0
+Kd 0.627451 0.627451 0.627451
+Ks 0.392157 0.392157 0.392157
+illum 2
+Ns 128
+d 0.1
+
+newmtl BRAIN_Corpus_collosum
+Ka 0 0 0
+Kd 0.762353 0.680784 0.489412
+Ks 0.381176 0.340392 0.244706
+illum 2
+Ns 8
+
+newmtl BRAIN_Spinal_cord
+Ka 0 0 0
+Kd 0.715294 0.636863 0.316863
+Ks 0.357647 0.318431 0.158431
+illum 2
+Ns 8
+
+newmtl BRAIN_Facial_colliculus
+Ka 0 0 0
+Kd 0.599216 0.323137 0.172549
+Ks 0.299608 0.161569 0.0862745
+illum 2
+Ns 8
+
+newmtl BRAIN_Inferior_colliculus
+Ka 0 0 0
+Kd 0.464314 0.385882 0.382745
+Ks 0.232157 0.192941 0.191373
+illum 2
+Ns 8
+
+newmtl BRAIN_Medulla
+Ka 0 0 0
+Kd 0.655686 0.54902 0.269804
+Ks 0.327843 0.27451 0.134902
+illum 2
+Ns 8
+
+newmtl BRAIN_Piramid
+Ka 0 0 0
+Kd 0.599216 0.395294 0.213333
+Ks 0.299608 0.197647 0.106667
+illum 2
+Ns 8
+
+newmtl BRAIN_Gray
+Ka 0 0 0
+Kd 0.693333 0.693333 0.693333
+Ks 0.346667 0.346667 0.346667
+illum 2
+Ns 8
+
+newmtl BRAIN_BRAIN_Ttrigone
+Ka 0 0 0
+Kd 0.624314 0.323137 0.175686
+Ks 0.312157 0.161569 0.0878431
+illum 2
+Ns 8
+
+newmtl BRAIN_Cuneate_tubercle
+Ka 0 0 0
+Kd 0.614902 0.420392 0.188235
+Ks 0.307451 0.210196 0.0941176
+illum 2
+Ns 8
+
+newmtl BRAIN_Lateral_recess
+Ka 0 0 0
+Kd 0.621176 0.470588 0.266667
+Ks 0.310588 0.235294 0.133333
+illum 2
+Ns 8
+
+newmtl BRAIN_Vestibular_area
+Ka 0 0 0
+Kd 0.643137 0.448627 0.156863
+Ks 0.321569 0.224314 0.0784314
+illum 2
+Ns 8
+
+newmtl BRAIN_Striae
+Ka 0 0 0
+Kd 0.759216 0.759216 0.759216
+Ks 0.379608 0.379608 0.379608
+illum 2
+Ns 8
+
+newmtl BRAIN_Gracile_tubercle
+Ka 0 0 0
+Kd 0.627451 0.467451 0.172549
+Ks 0.313726 0.233726 0.0862745
+illum 2
+Ns 8
+
+newmtl BRAIN_Cerebral_peduncle
+Ka 0 0 0
+Kd 0.338824 0.552157 0.60549
+Ks 0.169412 0.276078 0.302745
+illum 2
+Ns 8
+
+newmtl BRAIN_Middle_cerebellar_peduncl
+Ka 0 0 0
+Kd 0.395294 0.624314 0.630588
+Ks 0.197647 0.312157 0.315294
+illum 2
+Ns 8
+
+newmtl BRAIN_Hypothalamus
+Ka 0 0 0
+Kd 0.341961 0.282353 0.523922
+Ks 0.17098 0.141176 0.261961
+illum 2
+Ns 8
+
+newmtl BRAIN_Mammillary_body
+Ka 0 0 0
+Kd 0.338824 0.35451 0.60549
+Ks 0.169412 0.177255 0.302745
+illum 2
+Ns 8
+
+newmtl BRAIN_Medial_geniculate_body
+Ka 0 0 0
+Kd 0.310588 0.294902 0.407843
+Ks 0.155294 0.147451 0.203922
+illum 2
+Ns 8
+
+newmtl BRAIN_Superior_colliculus
+Ka 0 0 0
+Kd 0.652549 0.298039 0.19451
+Ks 0.326275 0.14902 0.0972549
+illum 2
+Ns 8
+
+newmtl BRAIN_Infundibulum
+Ka 0 0 0
+Kd 0.592941 0.746667 0.454902
+Ks 0.296471 0.373333 0.227451
+illum 2
+Ns 8
+
+newmtl BRAIN_Hypophysis
+Ka 0 0 0
+Kd 0.746667 0.740392 0.454902
+Ks 0.373333 0.370196 0.227451
+illum 2
+Ns 8
+
+newmtl BRAIN_Pineal_body
+Ka 0 0 0
+Kd 0.476863 0.316863 0.420392
+Ks 0.238431 0.158431 0.210196
+illum 2
+Ns 8
+
+newmtl BRAIN_Structure
+Ka 0 0 0
+Kd 0.752941 0.693333 0.60549
+Ks 0.376471 0.346667 0.302745
+illum 2
+Ns 8
+
+newmtl BRAIN_Olive_Piramid
+Ka 0 0 0
+Kd 0.643137 0.470588 0.298039
+Ks 0.321569 0.235294 0.14902
+illum 2
+Ns 8
+
+newmtl BRAIN_Thalamus
+Ka 0 0 0
+Kd 0.508235 0.0533333 0.0533333
+Ks 0.254118 0.0266667 0.0266667
+illum 2
+Ns 8
+
+newmtl BRAIN_Lateral_geniculate_nucleu
+Ka 0 0 0
+Kd 0.552157 0.172549 0.153725
+Ks 0.276078 0.0862745 0.0768627
+illum 2
+Ns 8
+
+newmtl BRAIN_Olfactory_bulb
+Ka 0 0 0
+Kd 0.586667 0.476863 0.188235
+Ks 0.293333 0.238431 0.0941176
+illum 2
+Ns 8
+
+newmtl BRAIN_Hippocamp
+Ka 0 0 0
+Kd 0.608627 0.307451 0.175686
+Ks 0.304314 0.153725 0.0878431
+illum 2
+Ns 8
+
+newmtl BRAIN_Caudate_nucleus
+Ka 0 0 0
+Kd 0.680784 0.247843 0.247843
+Ks 0.340392 0.123922 0.123922
+illum 2
+Ns 8
+
+newmtl BRAIN_Gray_matter
+Ka 0 0 0
+Kd 0.542745 0.188235 0.175686
+Ks 0.271373 0.0941176 0.0878431
+illum 2
+Ns 8
+
+newmtl BRAIN_Putamen
+Ka 0 0 0
+Kd 0.643137 0.690196 0.235294
+Ks 0.321569 0.345098 0.117647
+illum 2
+Ns 8
+
+newmtl BRAIN_Amygdala
+Ka 0 0 0
+Kd 0.712157 0.696471 0.373333
+Ks 0.356078 0.348235 0.186667
+illum 2
+Ns 8
