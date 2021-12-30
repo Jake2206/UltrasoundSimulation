@@ -18,7 +18,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MergeTest.unity
     guid: b2d17d5c7d90f374cb74449587d5adb8
   - enabled: 1
-    path: Assets/Scenes/addInstruction.unity
+    path: Assets/Scenes/mainScene.unity
     guid: 84b6c85f9ad439b4fab393e3a471404c
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b0b46a6e603ed4e63927362786a881f0,
