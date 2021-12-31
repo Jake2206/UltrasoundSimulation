@@ -21,7 +21,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3196360609924596789
 Transform:
   m_ObjectHideFlags: 0
@@ -151,7 +151,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3814600900135360926}
   - component: {fileID: 3814600900135360924}
-  - component: {fileID: 3814600900135360915}
   - component: {fileID: 3814600900135360925}
   m_Layer: 0
   m_Name: Camera
@@ -217,21 +216,6 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!114 &3814600900135360915
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3814600900135360927}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ca37c4357917f4c228841472877fbb2f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 3196360609924596789}
-  smoothSpeed: 1
-  offset: {x: 0.08, y: 29.4, z: 2.61}
 --- !u!114 &3814600900135360925
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -373,6 +357,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   linearModel: {fileID: 484753586566131263}
   curveModel: {fileID: 6916196288714243904}
+  orthoCam: {fileID: 3814600900135360924}
+  curveMask: {fileID: 0}
+  linearMask: {fileID: 0}
 --- !u!1 &6916196288714243904
 GameObject:
   m_ObjectHideFlags: 0
