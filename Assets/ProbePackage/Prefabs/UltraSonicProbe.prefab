@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 3814600899997008412}
   - component: {fileID: 3814600899997008403}
   - component: {fileID: 3814600899997008402}
-  - component: {fileID: 484753586566131262}
   m_Layer: 0
   m_Name: LinearProbeModel
   m_TagString: Untagged
@@ -126,21 +125,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   probe: {fileID: 4049095189276782760}
---- !u!114 &484753586566131262
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 484753586566131263}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7e379d918118044a9f44f817f73f466, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amp: 0
-  freq: 0.5
-  whichHand: right
 --- !u!1 &3814600900135360927
 GameObject:
   m_ObjectHideFlags: 0
@@ -287,7 +271,7 @@ GameObject:
   - component: {fileID: 3709442391969999378}
   - component: {fileID: 3814600899829026449}
   - component: {fileID: 3814600899829026462}
-  - component: {fileID: 3814600899829026460}
+  - component: {fileID: 970891989851664752}
   m_Layer: 0
   m_Name: UltraSonicProbe
   m_TagString: GameController
@@ -343,7 +327,7 @@ MonoBehaviour:
   m_TrackingType: 0
   m_UpdateType: 0
   m_UseRelativeTransform: 1
---- !u!114 &3814600899829026460
+--- !u!114 &970891989851664752
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -352,12 +336,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 4049095189276782760}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be2ded387ab227f45b4fad420b23d3ad, type: 3}
+  m_Script: {fileID: 11500000, guid: aab4671213cd84c97b5970b80a3b01d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   linearModel: {fileID: 484753586566131263}
   curveModel: {fileID: 6916196288714243904}
-  orthoCam: {fileID: 3814600900135360924}
   curveMask: {fileID: 0}
   linearMask: {fileID: 0}
 --- !u!1 &6916196288714243904
@@ -374,7 +357,6 @@ GameObject:
   - component: {fileID: 6916196288714243911}
   - component: {fileID: 6916196288714243910}
   - component: {fileID: 6916196288714243909}
-  - component: {fileID: 6916196288714243908}
   m_Layer: 0
   m_Name: CurveProbeModel
   m_TagString: Untagged
@@ -486,18 +468,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   probe: {fileID: 4049095189276782760}
---- !u!114 &6916196288714243908
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6916196288714243904}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7e379d918118044a9f44f817f73f466, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  amp: 1
-  freq: 0.3
-  whichHand: right

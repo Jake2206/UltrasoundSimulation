@@ -23,11 +23,11 @@ public class GainControl : MonoBehaviour
         //cam = GameObject.Find("UltraSonicProbe").GetComponent<Camera>();
     }
 
-    /*
-    Update the depth of the clipping plane on the probe camera.
-    Make sure it is within the max and min bounds of depth.
-    */
-    public void updateDepth(float change)
+    /// <summary>
+    /// Update the depth of the clipping plane on the probe camera.
+    /// Makes sure it is within the max and min bounds of depth.
+    /// </summary>
+    public void updateGain(float change)
     {
         //change = change * 100;
         ev = colorGradingLayer.postExposure.value;

@@ -8,7 +8,7 @@ public class GainUpdate : MonoBehaviour
 {
     public GameObject sliderParent;
     private PinchSlider sliderScript;
-    private GainControl dc;
+    private GainControl gc;
     private float cur_pos;
 
     // Start is called before the first frame update
@@ -16,7 +16,7 @@ public class GainUpdate : MonoBehaviour
     {
         sliderScript = sliderParent.GetComponent<PinchSlider>();
         cur_pos = sliderScript.SliderValue;
-        dc = sliderParent.GetComponent<GainControl>();
+        gc = sliderParent.GetComponent<GainControl>();
     }
 
     private void Update()
@@ -28,10 +28,14 @@ public class GainUpdate : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Send slider value to gain control script to update the probe image gain.
+    /// </summary>
+    /// <param name="sliderValue"></param>
     public void sendUpdate(float sliderValue)
     {
         //Debug.Log(sliderValue.ToString());
-        dc.updateDepth(sliderValue - cur_pos);
+        gc.updateGain(sliderValue - cur_pos);
         cur_pos = sliderScript.SliderValue;
     }
 }

@@ -401,6 +401,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 970891989851664752, guid: 919e1300d38008847ab52a1a7a78ecc0,
+        type: 3}
+      propertyPath: curveMask
+      value: 
+      objectReference: {fileID: 891601798}
+    - target: {fileID: 970891989851664752, guid: 919e1300d38008847ab52a1a7a78ecc0,
+        type: 3}
+      propertyPath: linearMask
+      value: 
+      objectReference: {fileID: 891601797}
     - target: {fileID: 3709442391969999378, guid: 919e1300d38008847ab52a1a7a78ecc0,
         type: 3}
       propertyPath: m_RootOrder
@@ -473,4 +483,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3814600900135360915, guid: 919e1300d38008847ab52a1a7a78ecc0, type: 3}
+    - {fileID: 6916196288714243908, guid: 919e1300d38008847ab52a1a7a78ecc0, type: 3}
+    - {fileID: 484753586566131262, guid: 919e1300d38008847ab52a1a7a78ecc0, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 919e1300d38008847ab52a1a7a78ecc0, type: 3}

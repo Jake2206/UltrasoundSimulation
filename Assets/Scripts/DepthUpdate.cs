@@ -28,6 +28,10 @@ public class DepthUpdate : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Send slider value to depth control script to update the probe image depth.
+    /// </summary>
+    /// <param name="sliderValue"></param>
     public void sendUpdate(float sliderValue)
     {
         //Debug.Log(sliderValue.ToString());
