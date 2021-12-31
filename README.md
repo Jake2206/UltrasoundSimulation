@@ -1,12 +1,12 @@
-## 1. Your team name
+## 1. Ultrasound Training Simulation
 
-VR Medical Device Training
+Created with advisement from Dr. Steven Feiner, Dr. Robert Maniker, and Dr. David Kessler
 
 
 
 ![yayy](yayy.png)
 
-## 2. Your names and UNIs
+## 2. Authors
 
 Manxueying Li
 ml4529@columbia.edu
@@ -20,9 +20,12 @@ cl4021@columbia.edu
 Ziyao Zhang
 zz2790@columbia.edu
 
+Jacob Alexander
+jla2206@columbia.edu
+
 ## 3. Date of submission
 
-April 20 2021
+December 31 2021
 
 ## 4. Development platform(s)
 
@@ -34,14 +37,12 @@ Oculus Quest
 
 ## 6.Project title
 
-Ultrasonic Probe Central Line Training
+Ultrasonic Probe Training
 
 ## 7.Project directory overview
-Because each of us worked on different features at the same time, we kept several different scenes in our project. 
+The main scene is at: Assets/Scenes/mainScene
 
-Our main scene is at: Assets/Scenes/addInstruction
-
-Our scripts are at: Assets/Scripts
+The scripts are at: Assets/Scripts and Assets
 
 
 ## 8.Special Instructions, if any, for deploying your app
@@ -62,9 +63,6 @@ None
 
 ## 12.Bugs in your code and in any system you used
 No observed bugs in our code.
-
-
-1. The syringe and probe are difficult to grab sometimes. May need to make the collider larger.
 
 ## 13.Asset sources
 
