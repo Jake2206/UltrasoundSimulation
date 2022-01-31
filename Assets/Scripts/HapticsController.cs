@@ -8,6 +8,8 @@ public class HapticsController : MonoBehaviour
     public float amp;
     public float freq;
     public string whichHand;
+    public Camera probeCam;
+    public RenderTexture renderTexture;
 
     public void resetHaptics()
     {
@@ -40,6 +42,7 @@ public class HapticsController : MonoBehaviour
         {
             setHaptics();
             //Debug.Log("Setting Haptics");
+            probeCam.enabled = true;
         }
     }
 
@@ -49,6 +52,8 @@ public class HapticsController : MonoBehaviour
         {
             resetHaptics();
             //Debug.Log("Resetting Haptics");
+            probeCam.enabled = false;
+            renderTexture.Release();
         }
     }
 }

@@ -29,9 +29,8 @@ public class GainControl : MonoBehaviour
     /// </summary>
     public void updateGain(float change)
     {
-        //change = change * 100;
+        change = change * 10;
         ev = colorGradingLayer.postExposure.value;
-        Debug.Log(ev);
         if (change > 0)
         {
             if ((ev + change) < maxGain)

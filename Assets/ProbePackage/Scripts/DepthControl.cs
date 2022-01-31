@@ -7,7 +7,8 @@ using UnityEngine.UI;
 public class DepthControl : MonoBehaviour
 {
 
-    public Camera cam; //this is the camera on the probe
+    public Camera r_cam; //this is the camera on the probe
+    public Camera l_cam;
     //public Text depthLabel;
     private float orthoMinDepth = .025f;
     private float orthoMaxDepth = .035f;
@@ -28,24 +29,28 @@ public class DepthControl : MonoBehaviour
         change *= .1f;
         if (change > 0)
         {
-            if ((cam.orthographicSize + change) <= orthoMaxDepth)
+            if ((l_cam.orthographicSize + change) <= orthoMaxDepth)
             {
-                cam.orthographicSize += change;
+                l_cam.orthographicSize += change;
+                r_cam.orthographicSize += change;
             }
             else
             {
-                cam.orthographicSize = orthoMaxDepth;
+                l_cam.orthographicSize = orthoMaxDepth;
+                r_cam.orthographicSize = orthoMaxDepth;
             }
         }
         else
         {
-            if (cam.orthographicSize + change > orthoMinDepth)
+            if (l_cam.orthographicSize + change > orthoMinDepth)
             {
-                cam.orthographicSize += change;
+                l_cam.orthographicSize += change;
+                r_cam.orthographicSize += change;
             }
             else
             {
-                cam.orthographicSize = orthoMinDepth;
+                l_cam.orthographicSize = orthoMinDepth;
+                r_cam.orthographicSize = orthoMinDepth;
             }
         }
         return;
