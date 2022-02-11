@@ -10,7 +10,18 @@ public class DisableHandItems : MonoBehaviour
     public GameObject transducerR;
     public GameObject syringeR;
     private bool leftActive = false;
+    private Vector3 left_syringe_pos;
+    private Vector3 right_syringe_pos;
+    private Vector3 left_transducer_pos;
+    private Vector3 right_transducer_pos;
 
+    private void Start()
+    {
+        left_syringe_pos = syringeL.transform.localPosition;
+        right_syringe_pos = syringeR.transform.localPosition;
+        left_transducer_pos = transducerL.transform.localPosition;
+        right_transducer_pos = transducerR.transform.localPosition;
+}
     private void OnTriggerEnter(Collider other)
     {
         //Debug.Log("Collision: " + other.gameObject.name);
@@ -41,11 +52,15 @@ public class DisableHandItems : MonoBehaviour
             {
                 transducerL.SetActive(true);
                 syringeR.SetActive(true);
+                transducerL.transform.localPosition = left_transducer_pos;
+                syringeR.transform.localPosition = right_syringe_pos;
             }
             else
             {
                 syringeL.SetActive(true);
                 transducerR.SetActive(true);
+                transducerR.transform.localPosition = right_transducer_pos;
+                syringeL.transform.localPosition = left_syringe_pos;
             }
         }
     }
