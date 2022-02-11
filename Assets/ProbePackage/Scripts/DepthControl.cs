@@ -7,10 +7,15 @@ using UnityEngine.UI;
 public class DepthControl : MonoBehaviour
 {
 
-    public Camera cam; //this is the camera on the probe
+    public Camera r_cam; //this is the camera on the probe
+    public Camera l_cam;
+    public RawImage curveImage;
+    public RawImage linearImage;
+    private float minDepth;
+    private float maxDepth;
     //public Text depthLabel;
-    private float orthoMinDepth = .025f;
-    private float orthoMaxDepth = .035f;
+    //private float orthoMinDepth = .025f;
+    //private float orthoMaxDepth = .035f;
 
     //private string depthUnitText = "mm";
 
@@ -25,27 +30,36 @@ public class DepthControl : MonoBehaviour
     /// </summary>
     public void updateDepth(float change)
     {
-        change *= .1f;
+        //change *= .1f;
+        Debug.Log(curveImage.rectTransform.sizeDelta);
         if (change > 0)
         {
-            if ((cam.orthographicSize + change) <= orthoMaxDepth)
+            if ((l_cam.orthographicSize + change) <= maxDepth) //orthoMaxDepth)
             {
-                cam.orthographicSize += change;
+                curveImage.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, curveImage.rectTransform.sizeDelta.y);
+                //l_cam.orthographicSize += change;
+                //r_cam.orthographicSize += change;
             }
             else
             {
-                cam.orthographicSize = orthoMaxDepth;
+                curveImage.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, curveImage.rectTransform.sizeDelta.y);
+                //l_cam.orthographicSize = orthoMaxDepth;
+                //r_cam.orthographicSize = orthoMaxDepth;
             }
         }
         else
         {
-            if (cam.orthographicSize + change > orthoMinDepth)
+            if (l_cam.orthographicSize + change > minDepth)//orthoMinDepth)
             {
-                cam.orthographicSize += change;
+                curveImage.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, curveImage.rectTransform.sizeDelta.y);
+                //l_cam.orthographicSize += change;
+                //r_cam.orthographicSize += change;
             }
             else
             {
-                cam.orthographicSize = orthoMinDepth;
+                curveImage.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, curveImage.rectTransform.sizeDelta.y);
+                //l_cam.orthographicSize = orthoMinDepth;
+                //r_cam.orthographicSize = orthoMinDepth;
             }
         }
         return;
