@@ -7,12 +7,12 @@ using UnityEngine.UI;
 public class DepthControl : MonoBehaviour
 {
 
-    public Camera r_cam; //this is the camera on the probe
-    public Camera l_cam;
+    public Camera r_cam; //this is the camera on the RH probe
+    public Camera l_cam; //this is the camera on the LH probe
     public RawImage curveImage;
     public RawImage linearImage;
-    private float minDepth;
-    private float maxDepth;
+    private float minDepth = 0.5f;
+    private float maxDepth = 1.0f;
     //public Text depthLabel;
     //private float orthoMinDepth = .025f;
     //private float orthoMaxDepth = .035f;
@@ -25,39 +25,44 @@ public class DepthControl : MonoBehaviour
     }
 
     /// <summary>
-    /// Update the depth of the clipping plane on the probe camera.
+    /// Update the depth of the uvRect on the rawImage being projected onto the probe screen.
     /// Make sure it is within the max and min bounds of depth.
     /// </summary>
     public void updateDepth(float change)
     {
-        //change *= .1f;
-        Debug.Log(curveImage.rectTransform.sizeDelta);
+        change = change/2;
+        Debug.Log(change);
+        //Debug.Log(curveImage.uvRect);
         if (change > 0)
         {
-            if ((l_cam.orthographicSize + change) <= maxDepth) //orthoMaxDepth)
+            if ((curveImage.uvRect.height + change) <= maxDepth) //orthoMaxDepth)
             {
-                curveImage.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, curveImage.rectTransform.sizeDelta.y);
+                curveImage.uvRect = new Rect(curveImage.uvRect.x, curveImage.uvRect.y, curveImage.uvRect.height+change, curveImage.uvRect.width+change);
+                //curveImage.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, curveImage.rectTransform.sizeDelta.y);
                 //l_cam.orthographicSize += change;
                 //r_cam.orthographicSize += change;
             }
             else
             {
-                curveImage.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, curveImage.rectTransform.sizeDelta.y);
+                curveImage.uvRect = new Rect(curveImage.uvRect.x, curveImage.uvRect.y, maxDepth, maxDepth);
+                //curveImage.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, curveImage.rectTransform.sizeDelta.y);
                 //l_cam.orthographicSize = orthoMaxDepth;
                 //r_cam.orthographicSize = orthoMaxDepth;
             }
         }
         else
         {
-            if (l_cam.orthographicSize + change > minDepth)//orthoMinDepth)
+            if (curveImage.uvRect.height + change > minDepth)//orthoMinDepth)
             {
-                curveImage.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, curveImage.rectTransform.sizeDelta.y);
+                curveImage.uvRect = new Rect(curveImage.uvRect.x, curveImage.uvRect.y, curveImage.uvRect.height + change, curveImage.uvRect.width + change);
+                //curveImage.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, curveImage.rectTransform.sizeDelta.y);
                 //l_cam.orthographicSize += change;
                 //r_cam.orthographicSize += change;
             }
             else
             {
-                curveImage.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, curveImage.rectTransform.sizeDelta.y);
+                curveImage.uvRect = new Rect(curveImage.uvRect.x, curveImage.uvRect.y, minDepth, minDepth);
+                //curveImage.rectTransform.SetSizeWithCurrentAnchors(RectTransform.Axis.Vertical, curveImage.rectTransform.sizeDelta.y);
                 //l_cam.orthographicSize = orthoMinDepth;
                 //r_cam.orthographicSize = orthoMinDepth;
             }
