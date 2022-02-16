@@ -20,11 +20,11 @@ public class UpdateProbeModel : MonoBehaviour
         {
             if (linearModel.activeInHierarchy)
             {
-                pms.setLinear();
+                pms.setCurve();
             }
             else
             {
-                pms.setCurve();
+                pms.setLinear();
             }
         }
     }
