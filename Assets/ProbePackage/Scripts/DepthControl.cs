@@ -17,10 +17,6 @@ public class DepthControl : MonoBehaviour
     public TMP_Text curveDepthLabel;
     public TMP_Text linearDepthLabel;
     private float scale = 0.5f;
-    //private float orthoMinDepth = .025f;
-    //private float orthoMaxDepth = .035f;
-
-    //private string depthUnitText = "mm";
 
     // Start is called before the first frame update
     void Start()
@@ -41,14 +37,12 @@ public class DepthControl : MonoBehaviour
         //Debug.Log(curveImage.uvRect);
         if (change > 0)
         {
-            if ((curveImage.uvRect.height + change) <= maxDepth) //orthoMaxDepth)
+            if ((curveImage.uvRect.height + change) <= maxDepth)
             {
                 curveDepthLabel.text = string.Format("-\n\n-\n\n-\n\n-\n\n-{0}\n\n-\n\n-\n\n-\n\n-{1} cm", curveCentis/2, curveCentis);
                 linearDepthLabel.text = string.Format("-\n\n-\n\n-\n\n-\n\n-{0}\n\n-\n\n-\n\n-\n\n-{1} cm", linearCentis / 2, linearCentis);
                 curveImage.uvRect = new Rect(curveImage.uvRect.x, curveImage.uvRect.y, curveImage.uvRect.height+change, curveImage.uvRect.width+change);
                 linearImage.uvRect = new Rect(linearImage.uvRect.x, linearImage.uvRect.y, linearImage.uvRect.height, linearImage.uvRect.width + change);
-                //l_cam.orthographicSize += change;
-                //r_cam.orthographicSize += change;
             }
             else
             {
@@ -56,20 +50,16 @@ public class DepthControl : MonoBehaviour
                 linearDepthLabel.text = string.Format("-\n\n-\n\n-\n\n-\n\n-{0}\n\n-\n\n-\n\n-\n\n-{1} cm", linearCentis / 2, linearCentis);
                 curveImage.uvRect = new Rect(curveImage.uvRect.x, curveImage.uvRect.y, maxDepth, maxDepth);
                 linearImage.uvRect = new Rect(linearImage.uvRect.x, linearImage.uvRect.y, maxDepth, maxDepth);
-                //l_cam.orthographicSize = orthoMaxDepth;
-                //r_cam.orthographicSize = orthoMaxDepth;
             }
         }
         else
         {
-            if (curveImage.uvRect.height + change > minDepth)//orthoMinDepth)
+            if (curveImage.uvRect.height + change > minDepth)
             {
                 curveDepthLabel.text = string.Format("-\n\n-\n\n-\n\n-\n\n-{0}\n\n-\n\n-\n\n-\n\n-{1} cm", curveCentis / 2, curveCentis);
                 linearDepthLabel.text = string.Format("-\n\n-\n\n-\n\n-\n\n-{0}\n\n-\n\n-\n\n-\n\n-{1} cm", linearCentis / 2, linearCentis);
                 curveImage.uvRect = new Rect(curveImage.uvRect.x, curveImage.uvRect.y, curveImage.uvRect.height + change, curveImage.uvRect.width + change);
                 linearImage.uvRect = new Rect(linearImage.uvRect.x, linearImage.uvRect.y, linearImage.uvRect.height, linearImage.uvRect.width + change);
-                //l_cam.orthographicSize += change;
-                //r_cam.orthographicSize += change;
             }
             else
             {
@@ -77,8 +67,6 @@ public class DepthControl : MonoBehaviour
                 linearDepthLabel.text = string.Format("-\n\n-\n\n-\n\n-\n\n-{0}\n\n-\n\n-\n\n-\n\n-{1} cm", linearCentis / 2, linearCentis);
                 curveImage.uvRect = new Rect(curveImage.uvRect.x, curveImage.uvRect.y, minDepth, minDepth);
                 linearImage.uvRect = new Rect(linearImage.uvRect.x, linearImage.uvRect.y, minDepth, minDepth);
-                //l_cam.orthographicSize = orthoMinDepth;
-                //r_cam.orthographicSize = orthoMinDepth;
             }
         }
         return;
