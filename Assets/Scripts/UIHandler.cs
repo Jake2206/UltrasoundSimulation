@@ -77,9 +77,9 @@ public class UIHandler : MonoBehaviour
     {
         // according to Dr. Kessler 
         procedureDescriptions = new string[] {
-            "Welcome to VR Ultrasonic probe training. Press > to move on to next step, press < to go to the previous step.",
-            "Hold the ultrasonic probe with the right hand and place it on the human body.",
-            "Slowly move the probe and watch the ultrasonic image carefully.",
+            "Welcome to Ultrasound Training Simulation. Press > to move on to next step, press < to go to the previous step.",
+            "Hold the ultrasound probe with the right hand and place it on the human body.",
+            "Slowly move the probe and watch the ultrasound image carefully.",
             "Visualize internal jugular on both right and left side to help select procedural site.",
             "Hold syringe in the left hand and insert.",
             "You have now finished the entire process. You can hide the instruction panel in the main menu.",

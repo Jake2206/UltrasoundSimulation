@@ -35,7 +35,7 @@ public class DepthUpdate : MonoBehaviour
     public void sendUpdate(float sliderValue)
     {
         //Debug.Log(sliderValue.ToString());
-        dc.updateDepth((sliderValue - cur_pos)/10);
+        dc.updateDepth((sliderValue - cur_pos));
         //cur_pos = sliderScript.SliderValue;
     }
 }

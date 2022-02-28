@@ -768,12 +768,12 @@ public class LocomotionTeleport : MonoBehaviour
 	/// </summary>
 	public void DoTeleport()
 	{
-		var character = LocomotionController.CharacterController;
+		var character = LocomotionController.PlayerController;
 		var characterTransform = character.transform;
 		var destTransform = _teleportDestination.OrientationIndicator;
 
 		Vector3 destPosition = destTransform.position;
-		destPosition.y += character.height * 0.5f;
+		destPosition.y = character.transform.position.y;
 		Quaternion destRotation = _teleportDestination.LandingRotation;// destTransform.rotation;
 #if false
 		Quaternion destRotation = destTransform.rotation;

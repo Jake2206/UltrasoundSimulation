@@ -10,8 +10,9 @@ public class GainControl : MonoBehaviour
     private ColorGrading colorGradingLayer;
     private float ev;
     //public Text gainLabel;
-    private float minGain = 0f;
-    private float maxGain = 100f;
+    private float minGain = -2.5f;
+    private float maxGain = 5.5f;
+    private float scale = 0.5f;
     //private string gainUnitText = "mm";
 
     // Start is called before the first frame update
@@ -29,13 +30,16 @@ public class GainControl : MonoBehaviour
     /// </summary>
     public void updateGain(float change)
     {
-        change = change * 10;
+        scale += change;
         ev = colorGradingLayer.postExposure.value;
+        float newGain = Mathf.Lerp(-2.5f, 5.5f, scale);
+        Debug.Log(scale);
+        Debug.Log(newGain);
         if (change > 0)
         {
-            if ((ev + change) < maxGain)
+            if (newGain < maxGain)
             {
-                colorGradingLayer.postExposure.value += change;
+                colorGradingLayer.postExposure.value = newGain;
             }
             else
             {
@@ -44,9 +48,9 @@ public class GainControl : MonoBehaviour
         }
         else
         {
-            if ((ev + change) > minGain)
+            if (newGain > minGain)
             {
-                colorGradingLayer.postExposure.value += change;
+                colorGradingLayer.postExposure.value = newGain;
             }
             else
             {

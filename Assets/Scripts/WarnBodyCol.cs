@@ -9,11 +9,11 @@ public class WarnBodyCol : MonoBehaviour
 
     private void OnTriggerEnter(Collider collision)
     {
-        Debug.Log("Collide");
+        //Debug.Log("Collide");
         //Debug.Log("Collision: " + collision.gameObject.name);
         if (collision.gameObject.tag == "body")
         {
-            Debug.Log("Body");
+            //Debug.Log("Body");
             warning.enabled = true;
         }
     }
