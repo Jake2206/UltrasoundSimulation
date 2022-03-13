@@ -9,7 +9,7 @@ public class UpdateClippingPlane : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        cam.farClipPlane = cam.nearClipPlane + .001f;
+        cam.farClipPlane = cam.nearClipPlane + .01f;
     }
 
 }

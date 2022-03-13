@@ -29,46 +29,14 @@ public class DepthControl : MonoBehaviour
     /// </summary>
     public void updateDepth(float change)
     {
-        change = change/2;
-        scale = ((curveImage.uvRect.height + change) - minDepth) / (maxDepth - minDepth);
+        scale -= change; //Mathf.Round((scale-change) * 10) *.1f;
+        Debug.Log(scale);
+        float newDepth = Mathf.Lerp(minDepth, maxDepth, scale);
         float curveCentis = Mathf.Round(Mathf.Lerp(4f, 15f, scale) * 100.0f) * 0.01f;
         float linearCentis = Mathf.Round(Mathf.Lerp(2f, 6f, scale) * 100.0f) * 0.01f;
-        //Debug.Log(change);
-        //Debug.Log(curveImage.uvRect);
-        if (change > 0)
-        {
-            if ((curveImage.uvRect.height + change) <= maxDepth)
-            {
-                curveDepthLabel.text = string.Format("-\n\n-\n\n-\n\n-\n\n-{0}\n\n-\n\n-\n\n-\n\n-{1} cm", curveCentis/2, curveCentis);
-                linearDepthLabel.text = string.Format("-\n\n-\n\n-\n\n-\n\n-{0}\n\n-\n\n-\n\n-\n\n-{1} cm", linearCentis / 2, linearCentis);
-                curveImage.uvRect = new Rect(curveImage.uvRect.x, curveImage.uvRect.y, curveImage.uvRect.height+change, curveImage.uvRect.width+change);
-                linearImage.uvRect = new Rect(linearImage.uvRect.x, linearImage.uvRect.y, linearImage.uvRect.height, linearImage.uvRect.width + change);
-            }
-            else
-            {
-                curveDepthLabel.text = string.Format("-\n\n-\n\n-\n\n-\n\n-{0}\n\n-\n\n-\n\n-\n\n-{1} cm", curveCentis / 2, curveCentis);
-                linearDepthLabel.text = string.Format("-\n\n-\n\n-\n\n-\n\n-{0}\n\n-\n\n-\n\n-\n\n-{1} cm", linearCentis / 2, linearCentis);
-                curveImage.uvRect = new Rect(curveImage.uvRect.x, curveImage.uvRect.y, maxDepth, maxDepth);
-                linearImage.uvRect = new Rect(linearImage.uvRect.x, linearImage.uvRect.y, maxDepth, maxDepth);
-            }
-        }
-        else
-        {
-            if (curveImage.uvRect.height + change > minDepth)
-            {
-                curveDepthLabel.text = string.Format("-\n\n-\n\n-\n\n-\n\n-{0}\n\n-\n\n-\n\n-\n\n-{1} cm", curveCentis / 2, curveCentis);
-                linearDepthLabel.text = string.Format("-\n\n-\n\n-\n\n-\n\n-{0}\n\n-\n\n-\n\n-\n\n-{1} cm", linearCentis / 2, linearCentis);
-                curveImage.uvRect = new Rect(curveImage.uvRect.x, curveImage.uvRect.y, curveImage.uvRect.height + change, curveImage.uvRect.width + change);
-                linearImage.uvRect = new Rect(linearImage.uvRect.x, linearImage.uvRect.y, linearImage.uvRect.height, linearImage.uvRect.width + change);
-            }
-            else
-            {
-                curveDepthLabel.text = string.Format("-\n\n-\n\n-\n\n-\n\n-{0}\n\n-\n\n-\n\n-\n\n-{1} cm", curveCentis / 2, curveCentis);
-                linearDepthLabel.text = string.Format("-\n\n-\n\n-\n\n-\n\n-{0}\n\n-\n\n-\n\n-\n\n-{1} cm", linearCentis / 2, linearCentis);
-                curveImage.uvRect = new Rect(curveImage.uvRect.x, curveImage.uvRect.y, minDepth, minDepth);
-                linearImage.uvRect = new Rect(linearImage.uvRect.x, linearImage.uvRect.y, minDepth, minDepth);
-            }
-        }
-        return;
+        curveDepthLabel.text = string.Format("-\n\n-\n\n-\n\n-\n\n-{0}\n\n-\n\n-\n\n-\n\n-{1} cm", curveCentis/2, curveCentis);
+        linearDepthLabel.text = string.Format("-\n\n-\n\n-\n\n-\n\n-{0}\n\n-\n\n-\n\n-\n\n-{1} cm", linearCentis/2, linearCentis);
+        curveImage.uvRect = new Rect(curveImage.uvRect.x, curveImage.uvRect.y, newDepth, newDepth);
+        linearImage.uvRect = new Rect(linearImage.uvRect.x, linearImage.uvRect.y, linearImage.uvRect.height, newDepth);
     }
 }

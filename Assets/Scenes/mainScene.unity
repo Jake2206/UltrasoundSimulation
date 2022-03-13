@@ -206,12 +206,17 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d37032d582a79234184aa66ba9c2a4f7,
         type: 3}
       propertyPath: m_Layer
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d37032d582a79234184aa66ba9c2a4f7,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d37032d582a79234184aa66ba9c2a4f7,
+        type: 3}
+      propertyPath: m_TagString
+      value: body
       objectReference: {fileID: 0}
     - target: {fileID: 8544212939680658324, guid: d37032d582a79234184aa66ba9c2a4f7,
         type: 3}
@@ -221,7 +226,7 @@ PrefabInstance:
     - target: {fileID: 8544212939680658324, guid: d37032d582a79234184aa66ba9c2a4f7,
         type: 3}
       propertyPath: m_Layer
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d37032d582a79234184aa66ba9c2a4f7, type: 3}
@@ -6802,7 +6807,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 9.415434e-38, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 1e-45, y: 0, z: 0, w: 4.363808e+20}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -7399,7 +7404,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.04
+  m_Radius: 0.01
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &773137028
 GameObject:
@@ -7637,7 +7642,7 @@ PrefabInstance:
     - target: {fileID: 4926590347321325540, guid: 522b89d0f09cc834db5f015f40e578f3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 4926590347321325540, guid: 522b89d0f09cc834db5f015f40e578f3,
         type: 3}
@@ -7647,7 +7652,7 @@ PrefabInstance:
     - target: {fileID: 4926590347321325540, guid: 522b89d0f09cc834db5f015f40e578f3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 4926590347321325540, guid: 522b89d0f09cc834db5f015f40e578f3,
         type: 3}
@@ -7732,7 +7737,7 @@ PrefabInstance:
     - target: {fileID: 4926590347846174690, guid: 522b89d0f09cc834db5f015f40e578f3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.75
       objectReference: {fileID: 0}
     - target: {fileID: 4926590347846174690, guid: 522b89d0f09cc834db5f015f40e578f3,
         type: 3}
@@ -7742,7 +7747,7 @@ PrefabInstance:
     - target: {fileID: 4926590347846174690, guid: 522b89d0f09cc834db5f015f40e578f3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2
+      value: -0.75
       objectReference: {fileID: 0}
     - target: {fileID: 4926590347846174690, guid: 522b89d0f09cc834db5f015f40e578f3,
         type: 3}
@@ -7977,7 +7982,7 @@ PrefabInstance:
     - target: {fileID: 4926590348759836584, guid: 522b89d0f09cc834db5f015f40e578f3,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 4926590348759836584, guid: 522b89d0f09cc834db5f015f40e578f3,
         type: 3}
@@ -7987,7 +7992,7 @@ PrefabInstance:
     - target: {fileID: 4926590348759836584, guid: 522b89d0f09cc834db5f015f40e578f3,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2
+      value: 0.75
       objectReference: {fileID: 0}
     - target: {fileID: 4926590348759836584, guid: 522b89d0f09cc834db5f015f40e578f3,
         type: 3}
@@ -8598,7 +8603,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 1.5217162e+25, z: 4.5863e-41, w: 0.00019073486}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -9102,7 +9107,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1084768062
 RectTransform:
   m_ObjectHideFlags: 0
@@ -10128,15 +10133,15 @@ Camera:
     y: 0
     width: 1
     height: 0.6
-  near clip plane: 0.3
-  far clip plane: 0.31
+  near clip plane: 0
+  far clip plane: 0.01
   field of view: 130.24797
   orthographic: 1
   orthographic size: 0.03
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 5637
+    m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: 3b562d0271cc44518bba6d3101825ced, type: 2}
   m_TargetDisplay: 0
@@ -10216,7 +10221,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1227795125}
   m_LocalRotation: {x: 0.5014384, y: 0.4985575, z: -0.50143844, w: 0.49855745}
-  m_LocalPosition: {x: 0.25, y: 30.48, z: 4.9}
+  m_LocalPosition: {x: 0.09, y: 0, z: 4.9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1198455207}
@@ -10828,12 +10833,17 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d37032d582a79234184aa66ba9c2a4f7,
         type: 3}
       propertyPath: m_Layer
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: d37032d582a79234184aa66ba9c2a4f7,
         type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d37032d582a79234184aa66ba9c2a4f7,
+        type: 3}
+      propertyPath: m_TagString
+      value: body
       objectReference: {fileID: 0}
     - target: {fileID: 8544212939680658324, guid: d37032d582a79234184aa66ba9c2a4f7,
         type: 3}
@@ -10843,7 +10853,7 @@ PrefabInstance:
     - target: {fileID: 8544212939680658324, guid: d37032d582a79234184aa66ba9c2a4f7,
         type: 3}
       propertyPath: m_Layer
-      value: 12
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d37032d582a79234184aa66ba9c2a4f7, type: 3}
@@ -13716,7 +13726,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.04
+  m_Radius: 0.01
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1767817027
 GameObject:
@@ -22327,7 +22337,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 5637
+    m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 8400000, guid: 3b562d0271cc44518bba6d3101825ced, type: 2}
   m_TargetDisplay: 0
@@ -24705,8 +24715,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1
-    height: 1
+    width: 0.75
+    height: 0.75
 --- !u!1 &6056815001306640274
 GameObject:
   m_ObjectHideFlags: 0
