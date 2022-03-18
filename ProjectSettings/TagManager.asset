@@ -8,6 +8,8 @@ TagManager:
   - seeThrough
   - bones
   - screen
+  - procedure instructions
+  - controller instructions
   layers:
   - Default
   - TransparentFX

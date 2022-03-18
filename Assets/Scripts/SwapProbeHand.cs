@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SwapProbeHand : MonoBehaviour
 {
@@ -8,6 +9,10 @@ public class SwapProbeHand : MonoBehaviour
     public GameObject l_syringe;
     public GameObject r_probe;
     public GameObject r_syringe;
+    public GameObject leftLinear;
+    public GameObject rightLinear;
+    public Image curveMask;
+    public Image linearMask;
     public RenderTexture rt;
     private bool touchingUI;
 
@@ -24,6 +29,16 @@ public class SwapProbeHand : MonoBehaviour
 
     void switch_hands()
     {
+        if (leftLinear.activeInHierarchy || rightLinear.activeInHierarchy)
+        {
+            linearMask.gameObject.SetActive(true);
+            curveMask.gameObject.SetActive(false);
+        }
+        else
+        {
+            linearMask.gameObject.SetActive(false);
+            curveMask.gameObject.SetActive(true);
+        }
         if (r_probe.activeInHierarchy)
         {
             r_probe.SetActive(false);

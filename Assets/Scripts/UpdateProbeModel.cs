@@ -6,6 +6,7 @@ public class UpdateProbeModel : MonoBehaviour
 {
     public GameObject linearModel;
     private ProbeModelSwitch1 pms;
+    public RenderTexture rt;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +27,7 @@ public class UpdateProbeModel : MonoBehaviour
             {
                 pms.setLinear();
             }
+            rt.Release();
         }
     }
 }
