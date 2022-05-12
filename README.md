@@ -1,68 +1,59 @@
-## 1. Ultrasound Training Simulation
+## Ultrasound Training Simulation
 
 Created with advisement from Dr. Steven Feiner, Dr. Robert Maniker, and Dr. David Kessler
 
-
 ![yayy](yayy.png)
 
-## 2. Authors
+## Development platform
 
-Manxueying Li
-ml4529@columbia.edu
+Deployment platform: Oculus Quest (1 or 2, but only tested on 2)
+Tools:
+Unity 2019.4.38f1.
+Oculus Integration
+MRTK v2.5.3
+XR Plugin management v3.2.17
+Post Processing v3.0.3
 
-Lior Tal
-ljt2136@columbia.edu
+In order to build and deploy the project, please ensure that you are running Unity 2019.4.38f1 with Android build support installed.
+-Turn on developer mode on the Quest
+-Open the Oculus mobile app
+-Select your Quest from the Devices menu
+-Select Developer Mode and toggle it to true
+-Connect the Oculus Quest to your computer
+-Open the project in Unity 2019.4.38f1
+-Open File → Build Settings and ensure that the following options are selected
+	-Scenes: Scene/mainScene
+	-Target: Android
+	-Run Device: <Your Quest>
+-Select Build And Run
 
-Chengchen Li
-cl4021@columbia.edu
 
-Ziyao Zhang
-zz2790@columbia.edu
-
-Jacob Alexander
-jla2206@columbia.edu
-
-## 3. Date of submission
-
-December 31 2021
-
-## 4. Development platform(s)
-
-Unity 2019.4.16.f1.
-
-## 5. Mobile platforms, OS versions, and device names (and server platform, if any)
+## Mobile platforms, OS versions, and device names (and server platform, if any)
 
 Oculus Quest
 
-## 6.Project title
+## Project directory overview
 
-Ultrasonic Probe Training
-
-## 7.Project directory overview
 The main scene is at: Assets/Scenes/mainScene
-
 The scripts are at: Assets/Scripts and Assets
+The probe package is at: Assets/Scenes/ProbePackage
 
+## Video demo
+[YouTube Video Demo](https://youtu.be/UDimmVQ6zYE)
 
-## 8.Special Instructions, if any, for deploying your app
+## Usage guide
+Probe
+-- Switch probe types: Switch Probe button on the ultrasound screen.
 
-Followed the Unity tutorial here: https://developer.oculus.com/documentation/unity/book-unity-gsg/.
+Image Panel
+-- Grab and drag with the pointer or virtual hand (for the pointer pinch forefinger and thumb together to grab).
 
-## 9.Special instructions, if any, for preparing your targets
+Teleport
+-- Make a backwards L with your left hand and aim the pointer that appears.
+-- Confirm: pull your forefinger towards your palm.
 
-None.
+Travel
+-- Walk around with your body
 
-## 10.Video URL
-[YouTube Video Demo](https://m.youtube.com/watch?v=Vi_FTKmmF_0)
-
-
-## 11.Missing features
-
-None
-
-## 12.Bugs in your code and in any system you used
-No observed bugs in our code.
-
-## 13.Asset sources
 
 
