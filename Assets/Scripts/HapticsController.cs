@@ -8,8 +8,6 @@ public class HapticsController : MonoBehaviour
     public float amp;
     public float freq;
     public string whichHand;
-    public Camera probeCam;
-    public RenderTexture renderTexture;
 
     public void resetHaptics()
     {
@@ -42,7 +40,6 @@ public class HapticsController : MonoBehaviour
         {
             StartCoroutine(Haptics(0.3f));
             //Debug.Log("Setting Haptics");
-            probeCam.enabled = true;
         }
     }
 
@@ -51,8 +48,6 @@ public class HapticsController : MonoBehaviour
         if (collision.gameObject.tag == "body")
         {
             //Debug.Log("Resetting Haptics");
-            probeCam.enabled = false;
-            renderTexture.Release();
         }
     }
 
