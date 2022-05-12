@@ -34,8 +34,6 @@ public class GainUpdate : MonoBehaviour
     /// <param name="sliderValue"></param>
     public void sendUpdate(float sliderValue)
     {
-        //Debug.Log(sliderValue.ToString());
         gc.updateGain(sliderValue - cur_pos);
-        cur_pos = sliderScript.SliderValue;
     }
 }

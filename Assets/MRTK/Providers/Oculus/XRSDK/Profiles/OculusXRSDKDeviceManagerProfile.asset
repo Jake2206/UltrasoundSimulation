@@ -20,6 +20,10 @@ MonoBehaviour:
   customHandMaterial: {fileID: 2100000, guid: 46180a965b426614f97a7239d1248a1a, type: 2}
   updateMaterialPinchStrengthValue: 1
   pinchStrengthMaterialProperty: _PressIntensity
+  minimumHandConfidence: 0
   lowConfidenceTimeThreshold: 0.2
   defaultCpuLevel: 2
   defaultGpuLevel: 2
+  resolutionScale: 1.25
+  useDynamicFixedFoveatedRendering: 1
+  fixedFoveatedRenderingLevel: 3

@@ -38,7 +38,7 @@ public class HapticsController : MonoBehaviour
         //Debug.Log("Collision: " + collision.gameObject.name);
         if (collision.gameObject.tag == "body")
         {
-            setHaptics();
+            StartCoroutine(Haptics(0.3f));
             //Debug.Log("Setting Haptics");
         }
     }
@@ -47,8 +47,14 @@ public class HapticsController : MonoBehaviour
     {
         if (collision.gameObject.tag == "body")
         {
-            resetHaptics();
             //Debug.Log("Resetting Haptics");
         }
+    }
+
+    IEnumerator Haptics(float duration)
+    {
+        setHaptics();
+        yield return new WaitForSeconds(duration);
+        resetHaptics();
     }
 }

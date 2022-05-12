@@ -6,6 +6,7 @@ public class UpdateProbeModel : MonoBehaviour
 {
     public GameObject linearModel;
     private ProbeModelSwitch1 pms;
+    public RenderTexture rt;
 
     // Start is called before the first frame update
     void Start()
@@ -13,19 +14,16 @@ public class UpdateProbeModel : MonoBehaviour
         pms = linearModel.transform.parent.GetComponent<ProbeModelSwitch1>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void switchModel()
     {
-        if (OVRInput.GetDown(OVRInput.Button.One))
+        if (linearModel.activeInHierarchy)
         {
-            if (linearModel.activeInHierarchy)
-            {
-                pms.setLinear();
-            }
-            else
-            {
-                pms.setCurve();
-            }
+            pms.setCurve();
         }
+        else
+        {
+            pms.setLinear();
+        }
+        rt.Release();
     }
 }

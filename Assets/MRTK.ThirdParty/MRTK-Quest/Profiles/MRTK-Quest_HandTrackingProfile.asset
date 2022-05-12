@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isCustomProfile: 1
   jointPrefab: {fileID: 0}
-  palmPrefab: {fileID: 0}
+  palmPrefab: {fileID: 6797406804172968804, guid: 750bdc3344567a447960aae3eda2b462,
+    type: 3}
   fingertipPrefab: {fileID: 0}
-  handMeshPrefab: {fileID: 0}
-  handMeshVisualizationModes: 0
-  handJointVisualizationModes: 0
+  handMeshPrefab: {fileID: 1887883006053652, guid: a86f479797fea8f4189f924b3b6ad979,
+    type: 3}
+  handMeshVisualizationModes: -1
+  handJointVisualizationModes: -1

@@ -7,6 +7,9 @@ TagManager:
   - body
   - seeThrough
   - bones
+  - screen
+  - procedure instructions
+  - controller instructions
   layers:
   - Default
   - TransparentFX
@@ -20,7 +23,7 @@ TagManager:
   - GrayscaleScan
   - body
   - bones
-  - 
+  - syringe
   - 
   - 
   - 
