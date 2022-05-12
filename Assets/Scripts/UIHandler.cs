@@ -79,24 +79,21 @@ public class UIHandler : MonoBehaviour
         {
             // according to Dr. Kessler 
             procedureDescriptions = new string[] {
-            "Hold the ultrasound probe with the right hand and place it on the human body.",
+            "Place the ultrasound probe on the human body.",
             "Slowly move the probe and watch the ultrasound image carefully.",
             "Visualize internal jugular on both right and left side to help select procedural site.",
-            "Hold syringe in the left hand and insert.",
-            "You have now finished the entire process.",
+            "Hold syringe in hand and insert.",
+            "You have now finished the procedure.",
             };
         }else if (transform.gameObject.tag == "controller instructions")
         {
-            // according to Dr. Kessler 
             procedureDescriptions = new string[] {
-            "Welcome to Ultrasound Training Simulation. \nTo press buttons you can point at the button and squeeze either trigger on the pointing hand. \nPress > to move on to next step, press < to go to the previous step.",
-            "Locate the Y button on the left hand controller; it is the button furthest from your palm. \nUse this button to teleport to the patient at any time.",
-            "Locate the X button on the left hand controller; it is below the Y button. \n1:Hold this button and aim at the floor. \n2:use the right joystick to match the blue arrow to the view you would like to have \n3: release X to teleport. \n4: Press Y to return.",
-            "Locate the B button on the right hand controller; it is the button furthest from your palm. \nPress this button to swap the probe hand.",
-            "Locate the A button on the right hand controller; it is below the B button.\nPress this button to switch the probe type.",
-            "To grab and move the ultrasound screen you can touch the screen with your virtual hand or with the pointer and use either trigger to drag the screen to your desired position.",
+            "Welcome to Ultrasound Training Simulation. \nTo press buttons use your virual hand to touch them or find the ray coming out of your hand aim it and pinch your thumb and pointer finger. \nPress > to move on to next step, press < to go to the previous step.",
+            "To travel you can physically walk around or you can teleport. \nTo teleport point your left palm upward, make a backward L with your thumb and pointer finger, aim the arced ray and pull your pointer finger towards your body.",
+            "To grab the probe, syringe, or ultrasound screen you can simply reach out and grab them with your virtual hand.",
+            "To switch the probe type between linear and curvilinear press the 'Switch Probe' button on the ultrasound screen.",
+            "To adjust the height of the patient you can use the pointer and pinch technique to move the patient up and down.",
             "You can now move on to the ultrasound training by pressing the blue help button above the ultrasound screen. \nUse the help button to return to this tutorial.",
-
         };
         }
         nStep = procedureDescriptions.Length;

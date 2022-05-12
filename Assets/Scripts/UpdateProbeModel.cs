@@ -14,20 +14,16 @@ public class UpdateProbeModel : MonoBehaviour
         pms = linearModel.transform.parent.GetComponent<ProbeModelSwitch1>();
     }
 
-    // Update is called once per frame
-    void Update()
+    public void switchModel()
     {
-        if (OVRInput.GetDown(OVRInput.Button.One))
+        if (linearModel.activeInHierarchy)
         {
-            if (linearModel.activeInHierarchy)
-            {
-                pms.setCurve();
-            }
-            else
-            {
-                pms.setLinear();
-            }
-            rt.Release();
+            pms.setCurve();
         }
+        else
+        {
+            pms.setLinear();
+        }
+        rt.Release();
     }
 }

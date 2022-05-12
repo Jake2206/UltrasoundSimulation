@@ -19,7 +19,7 @@ public class GainControl : MonoBehaviour
     }
 
     /// <summary>
-    /// Update the colord grading layer post exposure on the post processing layer.
+    /// Update the color grading layer post exposure on the post processing layer.
     /// Makes sure it is within the max and min bounds of depth with a lerp.
     /// </summary>
     public void updateGain(float change)

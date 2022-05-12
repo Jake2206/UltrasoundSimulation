@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/mainScene.unity
     guid: 84b6c85f9ad439b4fab393e3a471404c
+  - enabled: 0
+    path: Assets/MRTK.ThirdParty/MRTK-Quest/Scenes/MRTK-Quest_BasicSetup.unity
+    guid: 2631657807ec0834b8bf6da84fb0345b
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: b0b46a6e603ed4e63927362786a881f0,
       type: 2}
