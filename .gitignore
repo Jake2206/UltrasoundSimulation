@@ -39,3 +39,5 @@ sysinfo.txt
 Packages/packages-lock.json
 ProjectSettings/PackageManagerSettings.asset
 ProjectSettings/ProjectVersion.txt
+Assets/Models/BP3DScaledDecimated_simplified.blend.meta
+Assets/Models/BP3DScaledDecimated_simplified.blend

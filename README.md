@@ -56,4 +56,7 @@ Travel
 -- Walk around with your body
 
 
+## Credit
+The body model was borrowed from https://github.com/hoodlm/affordable-medical-ultrasound-training-simulator
+
 

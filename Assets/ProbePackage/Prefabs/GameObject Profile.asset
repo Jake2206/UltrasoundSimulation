@@ -17,7 +17,7 @@ MonoBehaviour:
     overrideState: 1
     value: 1
   gradingMode:
-    overrideState: 0
+    overrideState: 1
     value: 1
   externalLut:
     overrideState: 0
@@ -25,7 +25,7 @@ MonoBehaviour:
     defaultState: 1
   tonemapper:
     overrideState: 0
-    value: 2
+    value: 0
   toneCurveToeStrength:
     overrideState: 0
     value: 0
@@ -61,8 +61,8 @@ MonoBehaviour:
     overrideState: 0
     value: {r: 1, g: 1, b: 1, a: 1}
   hueShift:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: 40
   saturation:
     overrideState: 1
     value: -100
@@ -71,13 +71,13 @@ MonoBehaviour:
     value: 0
   postExposure:
     overrideState: 1
-    value: 1.25
+    value: 1
   contrast:
-    overrideState: 0
-    value: 0
+    overrideState: 1
+    value: -42
   mixerRedOutRedIn:
     overrideState: 0
-    value: 100
+    value: 2
   mixerRedOutGreenIn:
     overrideState: 0
     value: 0
@@ -109,8 +109,8 @@ MonoBehaviour:
     overrideState: 0
     value: {x: 1, y: 1, z: 1, w: 0}
   gain:
-    overrideState: 0
-    value: {x: 1, y: 1, z: 1, w: 0}
+    overrideState: 1
+    value: {x: 15, y: 15, z: 15, w: 15}
   masterCurve:
     overrideState: 0
     value:
@@ -1030,7 +1030,7 @@ MonoBehaviour:
       - 0.5
       - 0.5
   satVsSatCurve:
-    overrideState: 0
+    overrideState: 1
     value:
       curve:
         serializedVersion: 2
@@ -1325,3 +1325,61 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   settings:
   - {fileID: -9066967806353597849}
+  - {fileID: 6651382543727102165}
+  - {fileID: 655247509134986851}
+--- !u!114 &655247509134986851
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65e486e4de6e5448a8fbb43dc8756a0, type: 3}
+  m_Name: Grain
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  colored:
+    overrideState: 0
+    value: 0
+  intensity:
+    overrideState: 1
+    value: 0.75
+  size:
+    overrideState: 1
+    value: 0.8
+  lumContrib:
+    overrideState: 0
+    value: 0.384
+--- !u!114 &6651382543727102165
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 556797029e73b2347956b6579e77e05b, type: 3}
+  m_Name: DepthOfField
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  focusDistance:
+    overrideState: 0
+    value: 1e+10
+  aperture:
+    overrideState: 1
+    value: 21.7
+  focalLength:
+    overrideState: 1
+    value: 1.8
+  kernelSize:
+    overrideState: 1
+    value: 3
